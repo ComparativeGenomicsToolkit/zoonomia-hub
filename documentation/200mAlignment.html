@@ -1,0 +1,18 @@
+<h1 id="mammals-alignment-tracks">200 Mammals Alignment Tracks</h1>
+<h2 id="description">Description</h2>
+<p>The 200 Mammals alignment is available as two tracks: a MAF format track (using a <a href="https://genome.ucsc.edu/goldenPath/help/bigMaf.html">bigMaf</a> file), only available on the Homo_sapiens browser, as well as snake tracks (using a <a href="https://github.com/ComparativeGenomicsToolkit/hal">HAL</a><span class="citation" data-cites="hal">(Hickey et al. 2013)</span> file) that are available on all genomes.</p>
+<p>Note that the snake tracks need to load much more data and are thus significantly slower to load than the MAF tracks. We suggest using no more than five snake tracks at a time, and viewing them in regions of 100kb or less to avoid browser timeouts.</p>
+<h2 id="methods">Methods</h2>
+<p>The 200 Mammals project assembled genomes for 137 new placental mammals using the <a href="https://software.broadinstitute.org/software/discovar/blog/">DISCOVAR de novo assembler</a>. We combined these newly-assembled genomes with other publicly available assemblies to create a set of 242 genomes. The 242 placental mammal species in the resulting species set were aligned using <a href="https://github.com/ComparativeGenomicsToolkit/cactus">Cactus</a>, a multiple whole-genome alignment program<span class="citation" data-cites="cactusGenomeRes">(Paten et al. 2011)</span>.</p>
+<p>The raw alignment (in <a href="https://github.com/ComparativeGenomicsToolkit/hal">HAL</a><span class="citation" data-cites="hal">(Hickey et al. 2013)</span> format) is available <a href="https://alignment-output.s3.amazonaws.com/200m-v1.hal">here</a>. Please be aware that the file is nearly a terabyte in size, and bandwidth costs for hosting this file are significant.</p>
+<h2 id="credits">Credits</h2>
+<p>The 200 Mammals consortium provided the assemblies, as well as financial support to generate the alignment and develop Cactus. <a href="mailto:jcarmstr@ucsc.edu">Joel Armstrong</a> and <a href="mailto:bpaten@ucsc.edu">Benedict Paten</a> from the <a href="https://genomics.ucsc.edu">UC Santa Cruz Genomics Institute</a> generated the alignment; please contact them with any questions.</p>
+<h2 id="references" class="unnumbered">References</h2>
+<div id="refs" class="references" role="doc-bibliography">
+<div id="ref-hal">
+<p>Hickey, G., B. Paten, D. Earl, D. Zerbino, and D. Haussler. 2013. “HAL: a hierarchical format for storing and analyzing multiple genome alignments.” <em>Bioinformatics</em> 29 (10): 1341–2. <a href="https://doi.org/10.1093/bioinformatics/btt128">https://doi.org/10.1093/bioinformatics/btt128</a>.</p>
+</div>
+<div id="ref-cactusGenomeRes">
+<p>Paten, B., D. Earl, N. Nguyen, M. Diekhans, D. Zerbino, and D. Haussler. 2011. “Cactus: Algorithms for genome multiple sequence alignment.” <em>Genome Res.</em> 21 (9): 1512–28.</p>
+</div>
+</div>

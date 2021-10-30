@@ -1,0 +1,70 @@
+<h1 id="bird-10k-conservation-tracks">Bird 10K Conservation Tracks</h1>
+<h2 id="description">Description</h2>
+<p>These tracks show conservation scores and single-base-pair resolution significantly conserved or accelerated elements among three different alignments. The alignments used are:</p>
+<ul>
+<li>363-way alignment: the alignment for the current B10K project comparing 363 avian genomes,</li>
+<li>77-way alignment: a MULTIZ<span class="citation" data-cites="tba">(Blanchette et al. 2004)</span> 77-way alignment on chicken <a href="http://hgdownload.soe.ucsc.edu/goldenPath/galGal6/multiz77way/">obtained from the UCSC Genome Browser</a>,</li>
+<li>53-way alignment: an avian-only subset of the 77-way mentioned above.</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<h3 id="score-generation-and-multiple-testing-correction">Score generation and multiple-testing correction</h3>
+<p>We generated site-by-site conservation scores using phyloP<span class="citation" data-cites="phyloP">(Pollard et al. 2010)</span> with the <code>--method LRT</code> and <code>--mode CONACC</code> options. These scores were then corrected for multiple-testing using the BH FDR-controlling method<span class="citation" data-cites="fdr">(Benjamini and Hochberg 1995)</span>. Any site with a resulting q-value of less than 0.05 (for a &lt;5% expected FDR) was deemed significantly conserved or accelerated.</p>
+<h3 id="neutral-model">Neutral model</h3>
+<p>PhyloP requires a neutral model to generate its scores. Our neutral model was generated based on neutrally-evolving ancestral repeats using phyloFit (from the PHAST<span class="citation" data-cites="phast">(Hubisz, Pollard, and Siepel 2011)</span> package) and the <code>REV</code> model, fit using the <code>EM</code> strategy. We then scaled this model to fit ancestral repeats from three different chromosome sets: macro-, micro-, and sex chromosomes. The resulting three neutral models were used to infer the final scores: when scoring the bases on each chromosome, the corresponding model was used for phyloP.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Alignment</th>
+<th>Macro-chromosome model</th>
+<th>Micro-chromosome model</th>
+<th>Sex chromosome model</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>363-way</td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_363_macros.mod">Macro model</a></td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_363_micros.mod">Micro model</a></td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_363_sex.mod">Sex model</a></td>
+</tr>
+<tr class="even">
+<td>77-way</td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_77_macros.mod">Macro model</a></td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_77_micros.mod">Micro model</a></td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_77_sex.mod">Sex model</a></td>
+</tr>
+<tr class="odd">
+<td>53-way</td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_53_macros.mod">Macro model</a></td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_53_micros.mod">Micro model</a></td>
+<td><a href="https://comparative-genomics-hubs.s3-us-west-2.amazonaws.com/combined-b10k-200m-hub/b10k_model_53_sex.mod">Sex model</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="lifted-77-way-and-53-way-scores">Lifted 77-way and 53-way scores</h3>
+<p>Both the 77-way and the 53-way scores were originally referenced on the galGal6 assembly. These were lifted over to galGal4 to be displayed on this browser, losing around 1% of the scores in the process.</p>
+<h2 id="credits">Credits</h2>
+<p>The Bird 10K consortium, as well as the UCSC Genome Browser, provided the input data.</p>
+<h2 id="contact">Contact</h2>
+<p>Please contact <a href="mailto:jcarmstr@ucsc.edu">Joel Armstrong</a> or the corresponding authors <a href="mailto:guojie.zhang@bio.dk.dk">Guojie Zhang</a> or <a href="mailto:bpaten@ucsc.edu">Benedict Paten</a> with questions.</p>
+<h2 id="references" class="unnumbered">References</h2>
+<div id="refs" class="references" role="doc-bibliography">
+<div id="ref-fdr">
+<p>Benjamini, Yoav, and Yosef Hochberg. 1995. “Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing.” <em>Journal of the Royal Statistical Society. Series B (Methodological)</em> 57 (1): 289–300. <a href="http://www.jstor.org/stable/2346101">http://www.jstor.org/stable/2346101</a>.</p>
+</div>
+<div id="ref-tba">
+<p>Blanchette, Mathieu, W. James Kent, Cathy Riemer, Laura Elnitski, Arian F A Smith, Krishna M. Roskin, Robert Baertsch, et al. 2004. “Aligning multiple genomic sequences with the threaded blockset aligner.” <em>Genome Research</em> 14 (4): 708–15. <a href="https://doi.org/10.1101/gr.1933104">https://doi.org/10.1101/gr.1933104</a>.</p>
+</div>
+<div id="ref-phast">
+<p>Hubisz, Melissa J., Katherine S. Pollard, and Adam Siepel. 2011. “PHAST and RPHAST: Phylogenetic analysis with space/time models.” <em>Briefings in Bioinformatics</em> 12 (1): 41–51. <a href="https://doi.org/10.1093/bib/bbq072">https://doi.org/10.1093/bib/bbq072</a>.</p>
+</div>
+<div id="ref-phyloP">
+<p>Pollard, K. S., M. J. Hubisz, K. R. Rosenbloom, and A. Siepel. 2010. “Detection of nonneutral substitution rates on mammalian phylogenies.” <em>Genome Res.</em> 20 (1): 110–21.</p>
+</div>
+</div>
