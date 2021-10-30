@@ -2661,3 +2661,22 @@ group 200m
     otherSpecies Orycteropus_afer
     bigDataUrl ../../241-mammalian-2020v2.hal
 
+
+track zoonomiaGenesV1
+shortLabel Zoonomia Genes
+longLabel Zoonomia Prediction of Protein Coding Genes V1
+description  Zoonomia Prediction of Protein Coding Genes V1
+type bigGenePred
+group genes
+color 12,12,120
+maxItems 10000000
+maxWindowToDraw 10000000000
+priority 1
+visibility pack
+searchIndex name,name2
+bigDataUrl Ictidomys_tridecemlineatus.genesV1.bigGenePred
+html ../documentation/zoonomiaGenes.html
+labelFields name,name2
+defaultLabelFields name2
+labelSeperator " "
+
