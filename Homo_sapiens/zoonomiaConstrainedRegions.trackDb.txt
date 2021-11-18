@@ -17,7 +17,7 @@ html zoonomiaConstrainedRegions.html
     color 128,0,58
     priority 100.1
     visibility hide
-    bigDataUrl zooUCEs.bigBed
+    bigDataUrl http://cgl.gi.ucsc.edu/data/cactus/zoonomia-2021-track-hub/hg38/zooUCEs.bigBed
     html zoonomiaConstrainedRegions.html
 
     track zoonomiaRoCCs
@@ -29,7 +29,7 @@ html zoonomiaConstrainedRegions.html
     group 200m
     priority 100.2
     visibility hide
-    bigDataUrl RoCCs.bigBed
+    bigDataUrl http://cgl.gi.ucsc.edu/data/cactus/zoonomia-2021-track-hub/hg38/RoCCs.bigBed
     html zoonomiaConstrainedRegions.html
 
     track zoonomiaUNICORNs
@@ -41,7 +41,7 @@ html zoonomiaConstrainedRegions.html
     group 200m
     priority 100.3
     visibility hide
-    bigDataUrl UNICORNs.bigBed
+    bigDataUrl http://cgl.gi.ucsc.edu/data/cactus/zoonomia-2021-track-hub/hg38/UNICORNs.bigBed
     html zoonomiaConstrainedRegions.html
 
 
