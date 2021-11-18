@@ -1,0 +1,47 @@
+track zoonomiaConstrainedRegions
+compositeTrack on
+type bigBed 3
+group 200m
+visibility hide
+shortLabel Constrained regions
+longLabel Zoonomia constrained regions
+priority 100
+html zoonomiaConstrainedRegions.html
+
+    track zoonomiaUCEs
+    parent zoonomiaConstrainedRegions
+    shortLabel Zoonomia UCEs
+    longLabel Zoonomia ultraconserved elements (UCEs)
+    type bigBed 3
+    group 200m
+    color 128,0,58
+    priority 100.1
+    visibility hide
+    bigDataUrl zooUCEs.bigBed
+    html zoonomiaConstrainedRegions.html
+
+    track zoonomiaRoCCs
+    parent zoonomiaConstrainedRegions
+    shortLabel Zoonomia RoCCs
+    longLabel Zoonomia runs of contiguous constraint (RoCCs)
+    type bigBed 3
+    color 128,58,0
+    group 200m
+    priority 100.2
+    visibility hide
+    bigDataUrl RoCCs.bigBed
+    html zoonomiaConstrainedRegions.html
+
+    track zoonomiaUNICORNs
+    parent zoonomiaConstrainedRegions
+    shortLabel Zoonomia UNICORNs
+    longLabel Zoonomia unannotated Intergenic Constrained Regions (UNICORNs)
+    type bigBed 3
+    color 58,128,0
+    group 200m
+    priority 100.3
+    visibility hide
+    bigDataUrl UNICORNs.bigBed
+    html zoonomiaConstrainedRegions.html
+
+
