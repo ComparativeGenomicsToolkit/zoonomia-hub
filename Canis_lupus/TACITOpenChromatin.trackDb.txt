@@ -1,0 +1,30 @@
+
+track TACITOpenChromatin
+compositeTrack off
+shortLabel TACIT Open Chromatin
+longLabel  TACIT Open Chromatin Predictions and Orthologs
+type bigNarrowPeak
+group zoonomia
+html ../documentation/TACITOpenChromatin.html
+
+
+
+    track HumanPVOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Human PV Ortholog Prediction
+    longLabel Human PV Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl HumanPVOrthologPred.bb
+
+
+
+    track MousePVOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Mouse PV Ortholog Prediction
+    longLabel Mouse PV Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl MousePVOrthologPred.bb
+
+

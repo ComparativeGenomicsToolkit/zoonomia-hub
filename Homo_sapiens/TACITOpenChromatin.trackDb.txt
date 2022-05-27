@@ -1,0 +1,130 @@
+
+track TACITOpenChromatin
+compositeTrack off
+shortLabel TACIT Open Chromatin
+longLabel  TACIT Open Chromatin Predictions and Orthologs
+type bigNarrowPeak
+group zoonomia
+html ../documentation/TACITOpenChromatin.html
+
+
+
+    track BatMotorCortexOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Bat Motor Cortex Ortholog Prediction
+    longLabel Bat Motor Cortex Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl BatMotorCortexOrthologPred.bb
+
+
+
+    track CowLiverOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Cow Liver Ortholog Prediction
+    longLabel Cow Liver Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl CowLiverOrthologPred.bb
+
+
+
+    track MacaqueLiverOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Macaque Liver Ortholog Prediction
+    longLabel Macaque Liver Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl MacaqueLiverOrthologPred.bb
+
+
+
+    track MacaqueMotorCortexOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Macaque Motor Cortex Ortholog Prediction
+    longLabel Macaque Motor Cortex Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl MacaqueMotorCortexOrthologPred.bb
+
+
+
+    track MouseLiverOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Mouse Liver Ortholog Prediction
+    longLabel Mouse Liver Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl MouseLiverOrthologPred.bb
+
+
+
+    track MouseMotorCortexOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Mouse Motor Cortex Ortholog Prediction
+    longLabel Mouse Motor Cortex Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl MouseMotorCortexOrthologPred.bb
+
+
+
+    track MousePVOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Mouse PV Ortholog Prediction
+    longLabel Mouse PV Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl MousePVOrthologPred.bb
+
+
+
+    track PigLiverOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Pig Liver Ortholog Prediction
+    longLabel Pig Liver Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl PigLiverOrthologPred.bb
+
+
+
+    track RatLiverOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Rat Liver Ortholog Prediction
+    longLabel Rat Liver Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl RatLiverOrthologPred.bb
+
+
+
+    track RatMotorCortexOrthologPred
+    parent TACITOpenChromatin
+    shortLabel Rat Motor Cortex Ortholog Prediction
+    longLabel Rat Motor Cortex Ortholog Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl RatMotorCortexOrthologPred.bb
+
+
+
+    track HumanPVPred
+    parent TACITOpenChromatin
+    shortLabel Human PV Prediction
+    longLabel Human PV Prediction
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl HumanPVPred.bb
+
+
+
+    track HumanPVOriginal
+    parent TACITOpenChromatin
+    shortLabel Human PV Ortholog
+    longLabel Human PV Ortholog
+    type bigNarrowPeak
+    visibility full
+    bigDataUrl HumanPVOriginal.bb
+
+
