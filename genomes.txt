@@ -289,10 +289,10 @@ twoBitPath Canis_lupus/Canis_lupus.2bit
 trackDb Canis_lupus/trackDb.txt
 groups groups.txt
 htmlPath Canis_lupus/description.html
-description Canis_lupus
-organism Canis_lupus
+description Canis_lupus_familiaris (GCA_004027395.1)
+organism Canis_lupus_familiaris
 orderKey 4800
-scientificName Canis_lupus
+scientificName Canis_lupus_familiaris
 defaultPos CanFam_VD_scaffold_0:1-1000
 
 genome Canis_lupus_familiaris
@@ -300,7 +300,7 @@ twoBitPath Canis_lupus_familiaris/Canis_lupus_familiaris.2bit
 trackDb Canis_lupus_familiaris/trackDb.txt
 groups groups.txt
 htmlPath Canis_lupus_familiaris/description.html
-description Canis_lupus_familiaris
+description Canis_lupus_familiaris (GCF_000002285.3)
 organism Canis_lupus_familiaris
 orderKey 4800
 scientificName Canis_lupus_familiaris

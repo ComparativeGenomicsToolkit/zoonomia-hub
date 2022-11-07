@@ -1,0 +1,10 @@
+* data naming problems
+** Alignment has Canis_lupus, Grey Wolf, but spread sheet says this
+should be Canis_lupus_familiaris Domestic dog (village dog)	1. Zoonomia	GCA_004027395
+** Alignment has Tupaia_chinensis
+Spreadsheet has Tupaia_belangeri_chinensis	Northern tree shrew	2. Existing assembly	GCF_000334495.1
+choices are:
+  Tupaia chinensis (Chinese tree shrew) GCA_000334495.1/GCF_000334495.1
+  Tupaia belangeri  (Northern tree shrew) GCA_000181375.1
+so alignment looks fine an spreed sheet is wrong.
+* 2022-11-06 building chromAlias files
