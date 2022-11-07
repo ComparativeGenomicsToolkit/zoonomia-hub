@@ -1,6 +1,6 @@
-hub 241-mammalian-2020v2
-shortLabel 241 mammals V2
-longLabel  241-way mammalian V2 2020
+hub Zoonomia-241-mammalian-2020v2
+shortLabel Zoonomia 241 mammals V2
+longLabel  Zoonomia 241-way mammalian V2 2020
 genomesFile genomes.txt
 email markd@ucsc.edu
 descriptionUrl documentation/200mAlignment.html
