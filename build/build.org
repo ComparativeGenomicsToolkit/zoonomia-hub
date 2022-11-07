@@ -7,4 +7,13 @@ choices are:
   Tupaia chinensis (Chinese tree shrew) GCA_000334495.1/GCF_000334495.1
   Tupaia belangeri  (Northern tree shrew) GCA_000181375.1
 so alignment looks fine an spreed sheet is wrong.
+
 * 2022-11-06 building chromAlias files
+
+
+* 2022-11-07 attempt to move to GenArk terack hub
+/cluster/home/hiram/kent/src/hg/makeDb/doc/zoonomiaAsmHub/zoo241.equivalence.tsv
+
+bin/editGenomes
+
+blocked by need to rename genomes in HAL
