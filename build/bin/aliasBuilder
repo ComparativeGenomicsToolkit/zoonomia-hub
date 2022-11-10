@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+import sys
+import os.path as osp
+import io
+from pycbio.tsv import TsvReader
+from pycbio.sys import fileOps
+import requests
+import re
+from zooCommon import loadZooEquiv, getZooGenArkAcc, getZooGenArkRec, GenomeMissingError
+
+class AliasBuilderException(Exception):
+    pass
+
+class NoAssemblyColumn(AliasBuilderException):
+    pass
+
+class NotAccession(AliasBuilderException):
+    pass
+
+class NoGenArkChromAlias(AliasBuilderException):
+    pass
+
+class BadSciName(AliasBuilderException):
+    pass
+
+def getChromAliasPath(genome):
+    return f"../241-mammalian-2020v2-hub/{genome}/chrom.sizes"
+
+def genomeIsGenbank(genome):
+    for row in fileOps.iterRows(getChromAliasPath(genome)):
+        return re.match("^[A-Z]+[0-9]+\\.[0-9]+$", row[0]) is not None
+
+def accToChromAliasGenArk(acc):
+    # /hive/data/genomes/asmHubs/GCF/003/709/585/GCF_003709585.1/GCF_003709585.1.chromAlias.txt
+    m = re.search("^([A-Z]{3})_([0-9]{3})([0-9]{3})([0-9]{3})\\.[0-9]+$", acc)
+    if m is None:
+        raise NotAccession(acc)
+    accParts = m.groups()
+    return osp.join("/hive/data/genomes/asmHubs", *accParts, acc, acc + ".chromAlias.txt")
+
+def readChromAlias(caPath):
+    return [r for r in TsvReader(caPath)]
+
+def getOutChromAliasPath(zooRec):
+    return osp.join("output", zooRec.Hub_Species, zooRec.Hub_Species + ".chromAlias.txt")
+
+def getPrimaryCol(genome, rec):
+    # genbank	assembly	ucsc
+    try:
+        if genomeIsGenbank(genome):
+            return 0
+        return rec._columns_.index("assembly")
+    except ValueError as ex:
+        try:
+            return rec._columns_.index("genbank")
+        except:
+            raise NoAssemblyColumn(str(ex))
+
+def getOutColOrder(genome, rec):
+    iAsm = getPrimaryCol(genome, rec)
+    return [iAsm] + [i for i in range(len(rec)) if i != iAsm]
+
+def writeOrdered(colOrder, row, tmpFh):
+    fileOps.prRow(tmpFh, [row[i] for i in colOrder])
+
+def writeAlises(genome, ucscChromRecs, tmpFh):
+    colOrder = getOutColOrder(genome, ucscChromRecs[0])
+    print("# ", end='', file=tmpFh)
+    writeOrdered(colOrder, ucscChromRecs[0]._columns_, tmpFh)
+    for r in ucscChromRecs:
+        writeOrdered(colOrder, r.getRow(), tmpFh)
+
+def getInChromAliasPath(zooToGenArk, zooRec):
+    # first try accession in zoo spreadsheet
+    caPathZoo = accToChromAliasGenArk(zooRec.Accession)
+    if osp.exists(caPathZoo):
+        print("      using zoo acc:", caPathZoo, file=sys.stderr, flush=True)
+        return caPathZoo
+    if zooRec.Species != zooRec.Hub_Species:
+        raise BadSciName(str(zooRec))
+    caPathGen = accToChromAliasGenArk(getZooGenArkAcc(zooToGenArk, zooRec.Species))
+    if osp.exists(caPathGen):
+        print("      using genark acc:", caPathGen, file=sys.stderr, flush=True)
+        return caPathGen
+    raise NoGenArkChromAlias(str(zooRec))
+
+
+def doProcessZoonomia(zooToGenArk, zooRec, outPath):
+    ucscChromRecs = readChromAlias(getInChromAliasPath(zooToGenArk, zooRec))
+    fileOps.ensureFileDir(outPath)
+    with fileOps.AtomicFileCreate(outPath) as tmpOut:
+        with open(tmpOut, 'w') as tmpFh:
+            writeAlises(zooRec.Hub_Species, ucscChromRecs, tmpFh)
+
+def prInfo(zooToGenArk, zooRec):
+    try:
+        genArkRec = getZooGenArkRec(zooToGenArk, zooRec.Species)
+    except GenomeMissingError:
+        genArkRec = None
+    print("Processing:", str(zooRec), file=sys.stderr, flush=True)
+    print("    GenArk:", str(genArkRec), file=sys.stderr, flush=True)
+
+def processZoonomia(zooToGenArk, zooRec):
+    outPath = getOutChromAliasPath(zooRec)
+    if osp.exists(outPath):
+        print("Exists:", str(zooRec), file=sys.stderr, flush=True)
+    else:
+        try:
+            prInfo(zooToGenArk, zooRec)
+            doProcessZoonomia(zooToGenArk, zooRec, outPath)
+        except (AliasBuilderException, FileNotFoundError) as ex:
+            print("    Failed:", zooRec.Hub_Species, zooRec.Accession, ex, file=sys.stderr, flush=True)
+
+def main():
+    zooToGenArk = loadZooEquiv()
+    for zooRec in TsvReader("../241-mammalian-2020v2-hub/zoonomia-genbank.tsv"):
+        processZoonomia(zooToGenArk, zooRec)
+
+main()

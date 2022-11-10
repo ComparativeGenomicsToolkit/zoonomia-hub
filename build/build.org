@@ -8,12 +8,23 @@ choices are:
   Tupaia belangeri  (Northern tree shrew) GCA_000181375.1
 so alignment looks fine an spreed sheet is wrong.
 
-* 2022-11-06 building chromAlias files
-
-
 * 2022-11-07 attempt to move to GenArk terack hub
 /cluster/home/hiram/kent/src/hg/makeDb/doc/zoonomiaAsmHub/zoo241.equivalence.tsv
 
 bin/editGenomes
 
+** problems:
 blocked by need to rename genomes in HAL
+some genomes not in chromAlias
+
+* 2022-11-09 building chromAlias files
+generate chromAlias files for track hub.
+** problems:
+*** find correct chromAlias file in GenArk required looking
+at both zoonomia and genark accession mappings
+*** deciding which column to use in genark chromAlias was not
+straight-forward
+
+** decided to go with ids keys to generate a chromAlias
+
+
