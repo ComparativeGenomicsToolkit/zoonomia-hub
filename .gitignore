@@ -13,9 +13,11 @@
 *.bigBed
 *.keySignature.txt
 *.idKeys.txt
-
+*.chromAlias.as
+*.chromAlias.txt
 # strays
 Homo_sapiens/ancRep_rev_split_sampled
 Homo_sapiens/header
 Homo_sapiens/multiz_rerun_split_sampled
 Mus_musculus/phylop/
+__pycache__/

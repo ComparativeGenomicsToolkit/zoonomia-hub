@@ -1,96 +1,120 @@
 #!/usr/bin/env python3
 import sys
 import os.path as osp
-import io
+import glob
 from pycbio.tsv import TsvReader
 from pycbio.sys import fileOps
-import requests
 import re
+import pipettor
 from zooCommon import loadZooEquiv, getZooGenArkAcc, getZooGenArkRec, GenomeMissingError
 
 class AliasBuilderException(Exception):
     pass
 
-class NoAssemblyColumn(AliasBuilderException):
+class GenArkDoesNotExist(Exception):
+    def __init__(self, acc, path):
+        super().__init__(f"{acc} {path}")
+
+class NoGenArkIdKeys(AliasBuilderException):
     pass
 
 class NotAccession(AliasBuilderException):
     pass
 
-class NoGenArkChromAlias(AliasBuilderException):
-    pass
-
 class BadSciName(AliasBuilderException):
     pass
 
-def getChromAliasPath(genome):
-    return f"../241-mammalian-2020v2-hub/{genome}/chrom.sizes"
-
-def genomeIsGenbank(genome):
-    for row in fileOps.iterRows(getChromAliasPath(genome)):
-        return re.match("^[A-Z]+[0-9]+\\.[0-9]+$", row[0]) is not None
-
-def accToChromAliasGenArk(acc):
-    # /hive/data/genomes/asmHubs/GCF/003/709/585/GCF_003709585.1/GCF_003709585.1.chromAlias.txt
+def accToPathParts(acc):
     m = re.search("^([A-Z]{3})_([0-9]{3})([0-9]{3})([0-9]{3})\\.[0-9]+$", acc)
     if m is None:
         raise NotAccession(acc)
-    accParts = m.groups()
-    return osp.join("/hive/data/genomes/asmHubs", *accParts, acc, acc + ".chromAlias.txt")
+    return m.groups()
 
-def readChromAlias(caPath):
-    return [r for r in TsvReader(caPath)]
+def accToGenArkHubDir(acc):
+    # /hive/data/genomes/asmHubs/GCF/003/709/585/GCF_003709585.1/
+    accParts = accToPathParts(acc)
+    path = osp.join("/hive/data/genomes/asmHubs", *accParts, acc)
+    if not osp.exist(path):
+        raise GenArkDoesNotExist(acc, path)
+    return path
+
+def accToGenArkBuildDir(acc):
+    # /hive/data/genomes/asmHubs/genbankBuild/GCA/000/001/905/GCA_000001905.1_Loxafr3.0/
+    # /hive/data/genomes/asmHubs/refseqBuild/GCF/000/001/735/GCF_000001735.4_TAIR10.1/
+    accParts = accToPathParts(acc)
+    srcDir = "genbankBuild" if accParts[0] == "GCA" else "refseqBuild"
+    # need to get the stupid name (GCA_000001905.1_Loxafr3.0) from directory name
+    rootDir = osp.join("/hive/data/genomes/asmHubs", srcDir, *accParts)
+    asmDirs = glob.glob(osp.join(rootDir, acc + "_*"))
+    if len(asmDirs) == 0:
+        raise GenArkDoesNotExist(acc, rootDir)
+    elif len(asmDirs) > 1:
+        raise AliasBuilderException(f"multiple stupid directories for {acc}: " + " ".join(asmDirs))
+    return osp.join(rootDir, asmDirs[0])
+
+def getGenArkIdKeys(acc):
+    # .../trackData/idKeys/GCA_004363605.1_IndInd_v1_BIUU.idKeys.txt
+    # sometimes not in trackData dir, check both
+    buildDir = accToGenArkBuildDir(acc)
+    idKeys = osp.join(buildDir, "trackData/idKeys", osp.basename(buildDir) + ".idKeys.txt")
+    if not osp.exists(idKeys):
+        idKeys = osp.join(buildDir, "idKeys", osp.basename(buildDir) + ".idKeys.txt")
+    if not osp.exists(idKeys):
+        raise GenArkDoesNotExist(acc, idKeys)
+    return idKeys
+
+def getHubIdsKeys(genome):
+    return f"../241-mammalian-2020v2-hub/{genome}/{genome}.idKeys.txt"
+
+def getHubChromSizes(genome):
+    return f"../241-mammalian-2020v2-hub/{genome}/chrom.sizes"
+
+def countLines(path):
+    out = pipettor.runout(["wc", "-l", path])
+    return int(out.split()[0])
 
 def getOutChromAliasPath(zooRec):
     return osp.join("output", zooRec.Hub_Species, zooRec.Hub_Species + ".chromAlias.txt")
 
-def getPrimaryCol(genome, rec):
-    # genbank	assembly	ucsc
-    try:
-        if genomeIsGenbank(genome):
-            return 0
-        return rec._columns_.index("assembly")
-    except ValueError as ex:
-        try:
-            return rec._columns_.index("genbank")
-        except:
-            raise NoAssemblyColumn(str(ex))
+def joinIdKeys(zooRec, genArkAcc, hubIdKeys, genArkIdsKeys):
+    outChromAlias = getOutChromAliasPath(zooRec)
+    outChromAliasTmp = fileOps.atomicTmpFile(outChromAlias)
 
-def getOutColOrder(genome, rec):
-    iAsm = getPrimaryCol(genome, rec)
-    return [iAsm] + [i for i in range(len(rec)) if i != iAsm]
+    header = "# zoonomiaHub\tgenArk"
+    joinCmd = [["join", "-t", "\t", hubIdKeys, genArkIdsKeys],
+               ["cut", "-f2-3"]]
+    with open(outChromAliasTmp, 'w') as fh:
+        print(header, file=fh, flush=True)
+        pipettor.run(joinCmd, stdout=fh)
 
-def writeOrdered(colOrder, row, tmpFh):
-    fileOps.prRow(tmpFh, [row[i] for i in colOrder])
+    hubSeqCnt = countLines(hubIdKeys)
+    genArkCnt = countLines(genArkIdsKeys)
 
-def writeAlises(genome, ucscChromRecs, tmpFh):
-    colOrder = getOutColOrder(genome, ucscChromRecs[0])
-    print("# ", end='', file=tmpFh)
-    writeOrdered(colOrder, ucscChromRecs[0]._columns_, tmpFh)
-    for r in ucscChromRecs:
-        writeOrdered(colOrder, r.getRow(), tmpFh)
+    frac = genArkCnt / hubSeqCnt
+    print("    idKeys", zooRec.Hub_Species, hubSeqCnt, genArkAcc, genArkCnt, frac, file=sys.stderr)
+    # Bison_bison is refseq in genark and genbank in zoonomia, however this is okay, since it
+    if (frac < 0.90) and (zooRec.Hub_Species not in ("Bison_bison",)):
+        raise AliasBuilderException(f"{zooRec.Hub_Species} poor coverage for chromAlias: {genArkCnt}/{hubSeqCnt}")
+    fileOps.atomicInstall(outChromAliasTmp, outChromAlias)
 
-def getInChromAliasPath(zooToGenArk, zooRec):
+def findGenArkIdsKeys(zooToGenArk, zooRec):
     # first try accession in zoo spreadsheet
-    caPathZoo = accToChromAliasGenArk(zooRec.Accession)
+    caPathZoo = getGenArkIdKeys(zooRec.Accession)
     if osp.exists(caPathZoo):
         print("      using zoo acc:", caPathZoo, file=sys.stderr, flush=True)
         return caPathZoo
     if zooRec.Species != zooRec.Hub_Species:
         raise BadSciName(str(zooRec))
-    caPathGen = accToChromAliasGenArk(getZooGenArkAcc(zooToGenArk, zooRec.Species))
+    caPathGen = getGenArkIdKeys(getZooGenArkAcc(zooToGenArk, zooRec.Species))
     if osp.exists(caPathGen):
         print("      using genark acc:", caPathGen, file=sys.stderr, flush=True)
         return caPathGen
-    raise NoGenArkChromAlias(str(zooRec))
-
+    raise NoGenArkIdKeys(str(zooRec))
 
 def doProcessZoonomia(zooToGenArk, zooRec, outPath):
-    ucscChromRecs = readChromAlias(getInChromAliasPath(zooToGenArk, zooRec))
-    fileOps.ensureFileDir(outPath)
-    with fileOps.AtomicFileCreate(outPath) as tmpOut:
-        with open(tmpOut, 'w') as tmpFh:
-            writeAlises(zooRec.Hub_Species, ucscChromRecs, tmpFh)
+    genArkIdsKeys = findGenArkIdsKeys(zooToGenArk, zooRec)
+    hubIdKeys = getHubIdsKeys(zooRec.Hub_Species)
+    joinIdKeys(zooRec, getZooGenArkAcc(zooToGenArk, zooRec.Hub_Species), hubIdKeys, genArkIdsKeys)
 
 def prInfo(zooToGenArk, zooRec):
     try:

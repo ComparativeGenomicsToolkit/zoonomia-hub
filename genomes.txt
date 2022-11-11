@@ -1,4 +1,5 @@
 genome Acinonyx_jubatus
+chromAliasBb Acinonyx_jubatus/Acinonyx_jubatus.chromAlias.bb
 twoBitPath Acinonyx_jubatus/Acinonyx_jubatus.2bit
 trackDb Acinonyx_jubatus/trackDb.txt
 groups groups.txt
@@ -10,6 +11,7 @@ scientificName Acinonyx_jubatus
 defaultPos LLWD01000124.1:1-1000
 
 genome Acomys_cahirinus
+chromAliasBb Acomys_cahirinus/Acomys_cahirinus.chromAlias.bb
 twoBitPath Acomys_cahirinus/Acomys_cahirinus.2bit
 trackDb Acomys_cahirinus/trackDb.txt
 groups groups.txt
@@ -21,6 +23,7 @@ scientificName Acomys_cahirinus
 defaultPos AcoCah_scaffold_0:1-1000
 
 genome Ailuropoda_melanoleuca
+chromAliasBb Ailuropoda_melanoleuca/Ailuropoda_melanoleuca.chromAlias.bb
 twoBitPath Ailuropoda_melanoleuca/Ailuropoda_melanoleuca.2bit
 trackDb Ailuropoda_melanoleuca/trackDb.txt
 groups groups.txt
@@ -32,6 +35,7 @@ scientificName Ailuropoda_melanoleuca
 defaultPos LNAT01000364.1:1-1000
 
 genome Ailurus_fulgens
+chromAliasBb Ailurus_fulgens/Ailurus_fulgens.chromAlias.bb
 twoBitPath Ailurus_fulgens/Ailurus_fulgens.2bit
 trackDb Ailurus_fulgens/trackDb.txt
 groups groups.txt
@@ -43,6 +47,7 @@ scientificName Ailurus_fulgens
 defaultPos LNAC01000001.1:1-1000
 
 genome Allactaga_bullata
+chromAliasBb Allactaga_bullata/Allactaga_bullata.chromAlias.bb
 twoBitPath Allactaga_bullata/Allactaga_bullata.2bit
 trackDb Allactaga_bullata/trackDb.txt
 groups groups.txt
@@ -54,6 +59,7 @@ scientificName Allactaga_bullata
 defaultPos AllBul_scaffold_0:1-1000
 
 genome Alouatta_palliata
+chromAliasBb Alouatta_palliata/Alouatta_palliata.chromAlias.bb
 twoBitPath Alouatta_palliata/Alouatta_palliata.2bit
 trackDb Alouatta_palliata/trackDb.txt
 groups groups.txt
@@ -65,6 +71,7 @@ scientificName Alouatta_palliata
 defaultPos AloPal_scaffold_0:1-1000
 
 genome Ammotragus_lervia
+chromAliasBb Ammotragus_lervia/Ammotragus_lervia.chromAlias.bb
 twoBitPath Ammotragus_lervia/Ammotragus_lervia.2bit
 trackDb Ammotragus_lervia/trackDb.txt
 groups groups.txt
@@ -76,6 +83,7 @@ scientificName Ammotragus_lervia
 defaultPos NIVO01065774.1:1-1000
 
 genome Anoura_caudifer
+chromAliasBb Anoura_caudifer/Anoura_caudifer.chromAlias.bb
 twoBitPath Anoura_caudifer/Anoura_caudifer.2bit
 trackDb Anoura_caudifer/trackDb.txt
 groups groups.txt
@@ -87,6 +95,7 @@ scientificName Anoura_caudifer
 defaultPos AnoCau_scaffold_0:1-1000
 
 genome Antilocapra_americana
+chromAliasBb Antilocapra_americana/Antilocapra_americana.chromAlias.bb
 twoBitPath Antilocapra_americana/Antilocapra_americana.2bit
 trackDb Antilocapra_americana/trackDb.txt
 groups groups.txt
@@ -98,6 +107,7 @@ scientificName Antilocapra_americana
 defaultPos AntAmePen_scaffold_0:1-1000
 
 genome Aotus_nancymaae
+chromAliasBb Aotus_nancymaae/Aotus_nancymaae.chromAlias.bb
 twoBitPath Aotus_nancymaae/Aotus_nancymaae.2bit
 trackDb Aotus_nancymaae/trackDb.txt
 groups groups.txt
@@ -109,6 +119,7 @@ scientificName Aotus_nancymaae
 defaultPos KZ203792.1:1-1000
 
 genome Aplodontia_rufa
+chromAliasBb Aplodontia_rufa/Aplodontia_rufa.chromAlias.bb
 twoBitPath Aplodontia_rufa/Aplodontia_rufa.2bit
 trackDb Aplodontia_rufa/trackDb.txt
 groups groups.txt
@@ -120,6 +131,7 @@ scientificName Aplodontia_rufa
 defaultPos AprRuf_scaffold_0:1-1000
 
 genome Artibeus_jamaicensis
+chromAliasBb Artibeus_jamaicensis/Artibeus_jamaicensis.chromAlias.bb
 twoBitPath Artibeus_jamaicensis/Artibeus_jamaicensis.2bit
 trackDb Artibeus_jamaicensis/trackDb.txt
 groups groups.txt
@@ -131,6 +143,7 @@ scientificName Artibeus_jamaicensis
 defaultPos ArtJam_scaffold_0:1-1000
 
 genome Ateles_geoffroyi
+chromAliasBb Ateles_geoffroyi/Ateles_geoffroyi.chromAlias.bb
 twoBitPath Ateles_geoffroyi/Ateles_geoffroyi.2bit
 trackDb Ateles_geoffroyi/trackDb.txt
 groups groups.txt
@@ -142,6 +155,7 @@ scientificName Ateles_geoffroyi
 defaultPos AteGeo_scaffold_0:1-1000
 
 genome Balaenoptera_acutorostrata
+chromAliasBb Balaenoptera_acutorostrata/Balaenoptera_acutorostrata.chromAlias.bb
 twoBitPath Balaenoptera_acutorostrata/Balaenoptera_acutorostrata.2bit
 trackDb Balaenoptera_acutorostrata/trackDb.txt
 groups groups.txt
@@ -153,6 +167,7 @@ scientificName Balaenoptera_acutorostrata
 defaultPos KI537095.1:1-1000
 
 genome Balaenoptera_bonaerensis
+chromAliasBb Balaenoptera_bonaerensis/Balaenoptera_bonaerensis.chromAlias.bb
 twoBitPath Balaenoptera_bonaerensis/Balaenoptera_bonaerensis.2bit
 trackDb Balaenoptera_bonaerensis/trackDb.txt
 groups groups.txt
@@ -164,6 +179,7 @@ scientificName Balaenoptera_bonaerensis
 defaultPos DF424115.1:1-1000
 
 genome Beatragus_hunteri
+chromAliasBb Beatragus_hunteri/Beatragus_hunteri.chromAlias.bb
 twoBitPath Beatragus_hunteri/Beatragus_hunteri.2bit
 trackDb Beatragus_hunteri/trackDb.txt
 groups groups.txt
@@ -175,6 +191,7 @@ scientificName Beatragus_hunteri
 defaultPos BeaHun_scaffold_0:1-1000
 
 genome Bison_bison
+chromAliasBb Bison_bison/Bison_bison.chromAlias.bb
 twoBitPath Bison_bison/Bison_bison.2bit
 trackDb Bison_bison/trackDb.txt
 groups groups.txt
@@ -186,6 +203,7 @@ scientificName Bison_bison
 defaultPos KN265167.1:1-1000
 
 genome Bos_indicus
+chromAliasBb Bos_indicus/Bos_indicus.chromAlias.bb
 twoBitPath Bos_indicus/Bos_indicus.2bit
 trackDb Bos_indicus/trackDb.txt
 groups groups.txt
@@ -197,6 +215,7 @@ scientificName Bos_indicus
 defaultPos CM003021.1:1-1000
 
 genome Bos_mutus
+chromAliasBb Bos_mutus/Bos_mutus.chromAlias.bb
 twoBitPath Bos_mutus/Bos_mutus.2bit
 trackDb Bos_mutus/trackDb.txt
 groups groups.txt
@@ -208,6 +227,7 @@ scientificName Bos_mutus
 defaultPos JH881270.1:1-1000
 
 genome Bos_taurus
+chromAliasBb Bos_taurus/Bos_taurus.chromAlias.bb
 twoBitPath Bos_taurus/Bos_taurus.2bit
 trackDb Bos_taurus/trackDb.txt
 groups groups.txt
@@ -219,6 +239,7 @@ scientificName Bos_taurus
 defaultPos CM000177.6:1-1000
 
 genome Bubalus_bubalis
+chromAliasBb Bubalus_bubalis/Bubalus_bubalis.chromAlias.bb
 twoBitPath Bubalus_bubalis/Bubalus_bubalis.2bit
 trackDb Bubalus_bubalis/trackDb.txt
 groups groups.txt
@@ -230,6 +251,7 @@ scientificName Bubalus_bubalis
 defaultPos KI419148.1:1-1000
 
 genome Callicebus_donacophilus
+chromAliasBb Callicebus_donacophilus/Callicebus_donacophilus.chromAlias.bb
 twoBitPath Callicebus_donacophilus/Callicebus_donacophilus.2bit
 trackDb Callicebus_donacophilus/trackDb.txt
 groups groups.txt
@@ -241,6 +263,7 @@ scientificName Callicebus_donacophilus
 defaultPos CalDon_scaffold_0:1-1000
 
 genome Callithrix_jacchus
+chromAliasBb Callithrix_jacchus/Callithrix_jacchus.chromAlias.bb
 twoBitPath Callithrix_jacchus/Callithrix_jacchus.2bit
 trackDb Callithrix_jacchus/trackDb.txt
 groups groups.txt
@@ -252,6 +275,7 @@ scientificName Callithrix_jacchus
 defaultPos NTIC01000001.1:1-1000
 
 genome Camelus_bactrianus
+chromAliasBb Camelus_bactrianus/Camelus_bactrianus.chromAlias.bb
 twoBitPath Camelus_bactrianus/Camelus_bactrianus.2bit
 trackDb Camelus_bactrianus/trackDb.txt
 groups groups.txt
@@ -263,6 +287,7 @@ scientificName Camelus_bactrianus
 defaultPos KN277429.1:1-1000
 
 genome Camelus_dromedarius
+chromAliasBb Camelus_dromedarius/Camelus_dromedarius.chromAlias.bb
 twoBitPath Camelus_dromedarius/Camelus_dromedarius.2bit
 trackDb Camelus_dromedarius/trackDb.txt
 groups groups.txt
@@ -274,6 +299,7 @@ scientificName Camelus_dromedarius
 defaultPos KN271213.1:1-1000
 
 genome Camelus_ferus
+chromAliasBb Camelus_ferus/Camelus_ferus.chromAlias.bb
 twoBitPath Camelus_ferus/Camelus_ferus.2bit
 trackDb Camelus_ferus/trackDb.txt
 groups groups.txt
@@ -285,6 +311,7 @@ scientificName Camelus_ferus
 defaultPos KB019377.1:1-1000
 
 genome Canis_lupus
+chromAliasBb Canis_lupus/Canis_lupus.chromAlias.bb
 twoBitPath Canis_lupus/Canis_lupus.2bit
 trackDb Canis_lupus/trackDb.txt
 groups groups.txt
@@ -296,6 +323,7 @@ scientificName Canis_lupus_familiaris
 defaultPos CanFam_VD_scaffold_0:1-1000
 
 genome Canis_lupus_familiaris
+chromAliasBb Canis_lupus_familiaris/Canis_lupus_familiaris.chromAlias.bb
 twoBitPath Canis_lupus_familiaris/Canis_lupus_familiaris.2bit
 trackDb Canis_lupus_familiaris/trackDb.txt
 groups groups.txt
@@ -307,6 +335,7 @@ scientificName Canis_lupus_familiaris
 defaultPos chr14:8085731-8092195
 
 genome Capra_aegagrus
+chromAliasBb Capra_aegagrus/Capra_aegagrus.chromAlias.bb
 twoBitPath Capra_aegagrus/Capra_aegagrus.2bit
 trackDb Capra_aegagrus/trackDb.txt
 groups groups.txt
@@ -318,6 +347,7 @@ scientificName Capra_aegagrus
 defaultPos CM003214.1:1-1000
 
 genome Capra_hircus
+chromAliasBb Capra_hircus/Capra_hircus.chromAlias.bb
 twoBitPath Capra_hircus/Capra_hircus.2bit
 trackDb Capra_hircus/trackDb.txt
 groups groups.txt
@@ -329,6 +359,7 @@ scientificName Capra_hircus
 defaultPos CM004562.1:1-1000
 
 genome Capromys_pilorides
+chromAliasBb Capromys_pilorides/Capromys_pilorides.chromAlias.bb
 twoBitPath Capromys_pilorides/Capromys_pilorides.2bit
 trackDb Capromys_pilorides/trackDb.txt
 groups groups.txt
@@ -340,6 +371,7 @@ scientificName Capromys_pilorides
 defaultPos CapPil_scaffold_0:1-1000
 
 genome Carollia_perspicillata
+chromAliasBb Carollia_perspicillata/Carollia_perspicillata.chromAlias.bb
 twoBitPath Carollia_perspicillata/Carollia_perspicillata.2bit
 trackDb Carollia_perspicillata/trackDb.txt
 groups groups.txt
@@ -351,6 +383,7 @@ scientificName Carollia_perspicillata
 defaultPos CarPer_scaffold_0:1-1000
 
 genome Castor_canadensis
+chromAliasBb Castor_canadensis/Castor_canadensis.chromAlias.bb
 twoBitPath Castor_canadensis/Castor_canadensis.2bit
 trackDb Castor_canadensis/trackDb.txt
 groups groups.txt
@@ -362,6 +395,7 @@ scientificName Castor_canadensis
 defaultPos CasCan_scaffold_0:1-1000
 
 genome Catagonus_wagneri
+chromAliasBb Catagonus_wagneri/Catagonus_wagneri.chromAlias.bb
 twoBitPath Catagonus_wagneri/Catagonus_wagneri.2bit
 trackDb Catagonus_wagneri/trackDb.txt
 groups groups.txt
@@ -373,6 +407,7 @@ scientificName Catagonus_wagneri
 defaultPos CatWag_scaffold_0:1-1000
 
 genome Cavia_aperea
+chromAliasBb Cavia_aperea/Cavia_aperea.chromAlias.bb
 twoBitPath Cavia_aperea/Cavia_aperea.2bit
 trackDb Cavia_aperea/trackDb.txt
 groups groups.txt
@@ -384,6 +419,7 @@ scientificName Cavia_aperea
 defaultPos AVPZ01000001.1:1-1000
 
 genome Cavia_porcellus
+chromAliasBb Cavia_porcellus/Cavia_porcellus.chromAlias.bb
 twoBitPath Cavia_porcellus/Cavia_porcellus.2bit
 trackDb Cavia_porcellus/trackDb.txt
 groups groups.txt
@@ -395,6 +431,7 @@ scientificName Cavia_porcellus
 defaultPos DS562855.1:1-1000
 
 genome Cavia_tschudii
+chromAliasBb Cavia_tschudii/Cavia_tschudii.chromAlias.bb
 twoBitPath Cavia_tschudii/Cavia_tschudii.2bit
 trackDb Cavia_tschudii/trackDb.txt
 groups groups.txt
@@ -406,6 +443,7 @@ scientificName Cavia_tschudii
 defaultPos CavTsc_scaffold_0:1-1000
 
 genome Cebus_albifrons
+chromAliasBb Cebus_albifrons/Cebus_albifrons.chromAlias.bb
 twoBitPath Cebus_albifrons/Cebus_albifrons.2bit
 trackDb Cebus_albifrons/trackDb.txt
 groups groups.txt
@@ -417,6 +455,7 @@ scientificName Cebus_albifrons
 defaultPos CebAlb_scaffold_0:1-1000
 
 genome Cebus_capucinus
+chromAliasBb Cebus_capucinus/Cebus_capucinus.chromAlias.bb
 twoBitPath Cebus_capucinus/Cebus_capucinus.2bit
 trackDb Cebus_capucinus/trackDb.txt
 groups groups.txt
@@ -428,6 +467,7 @@ scientificName Cebus_capucinus
 defaultPos KV389426.1:1-1000
 
 genome Ceratotherium_simum
+chromAliasBb Ceratotherium_simum/Ceratotherium_simum.chromAlias.bb
 twoBitPath Ceratotherium_simum/Ceratotherium_simum.2bit
 trackDb Ceratotherium_simum/trackDb.txt
 groups groups.txt
@@ -439,6 +479,7 @@ scientificName Ceratotherium_simum
 defaultPos JH767723.1:1-1000
 
 genome Ceratotherium_simum_cottoni
+chromAliasBb Ceratotherium_simum_cottoni/Ceratotherium_simum_cottoni.chromAlias.bb
 twoBitPath Ceratotherium_simum_cottoni/Ceratotherium_simum_cottoni.2bit
 trackDb Ceratotherium_simum_cottoni/trackDb.txt
 groups groups.txt
@@ -450,6 +491,7 @@ scientificName Ceratotherium_simum_cottoni
 defaultPos CerCot_scaffold_1:1-1000
 
 genome Cercocebus_atys
+chromAliasBb Cercocebus_atys/Cercocebus_atys.chromAlias.bb
 twoBitPath Cercocebus_atys/Cercocebus_atys.2bit
 trackDb Cercocebus_atys/trackDb.txt
 groups groups.txt
@@ -461,6 +503,7 @@ scientificName Cercocebus_atys
 defaultPos KQ012552.1:1-1000
 
 genome Cercopithecus_neglectus
+chromAliasBb Cercopithecus_neglectus/Cercopithecus_neglectus.chromAlias.bb
 twoBitPath Cercopithecus_neglectus/Cercopithecus_neglectus.2bit
 trackDb Cercopithecus_neglectus/trackDb.txt
 groups groups.txt
@@ -472,6 +515,7 @@ scientificName Cercopithecus_neglectus
 defaultPos CertNeg_scaffold_0:1-1000
 
 genome Chaetophractus_vellerosus
+chromAliasBb Chaetophractus_vellerosus/Chaetophractus_vellerosus.chromAlias.bb
 twoBitPath Chaetophractus_vellerosus/Chaetophractus_vellerosus.2bit
 trackDb Chaetophractus_vellerosus/trackDb.txt
 groups groups.txt
@@ -483,6 +527,7 @@ scientificName Chaetophractus_vellerosus
 defaultPos ChaVel_scaffold_0:1-1000
 
 genome Cheirogaleus_medius
+chromAliasBb Cheirogaleus_medius/Cheirogaleus_medius.chromAlias.bb
 twoBitPath Cheirogaleus_medius/Cheirogaleus_medius.2bit
 trackDb Cheirogaleus_medius/trackDb.txt
 groups groups.txt
@@ -494,6 +539,7 @@ scientificName Cheirogaleus_medius
 defaultPos CheMed_scaffold_0:1-1000
 
 genome Chinchilla_lanigera
+chromAliasBb Chinchilla_lanigera/Chinchilla_lanigera.chromAlias.bb
 twoBitPath Chinchilla_lanigera/Chinchilla_lanigera.2bit
 trackDb Chinchilla_lanigera/trackDb.txt
 groups groups.txt
@@ -505,6 +551,7 @@ scientificName Chinchilla_lanigera
 defaultPos JH721862.1:1-1000
 
 genome Chlorocebus_sabaeus
+chromAliasBb Chlorocebus_sabaeus/Chlorocebus_sabaeus.chromAlias.bb
 twoBitPath Chlorocebus_sabaeus/Chlorocebus_sabaeus.2bit
 trackDb Chlorocebus_sabaeus/trackDb.txt
 groups groups.txt
@@ -516,6 +563,7 @@ scientificName Chlorocebus_sabaeus
 defaultPos CM001948.2:1-1000
 
 genome Choloepus_didactylus
+chromAliasBb Choloepus_didactylus/Choloepus_didactylus.chromAlias.bb
 twoBitPath Choloepus_didactylus/Choloepus_didactylus.2bit
 trackDb Choloepus_didactylus/trackDb.txt
 groups groups.txt
@@ -527,6 +575,7 @@ scientificName Choloepus_didactylus
 defaultPos ChoDid_scaffold_0:1-1000
 
 genome Choloepus_hoffmanni
+chromAliasBb Choloepus_hoffmanni/Choloepus_hoffmanni.chromAlias.bb
 twoBitPath Choloepus_hoffmanni/Choloepus_hoffmanni.2bit
 trackDb Choloepus_hoffmanni/trackDb.txt
 groups groups.txt
@@ -538,6 +587,7 @@ scientificName Choloepus_hoffmanni
 defaultPos KN196458.1:1-1000
 
 genome Chrysochloris_asiatica
+chromAliasBb Chrysochloris_asiatica/Chrysochloris_asiatica.chromAlias.bb
 twoBitPath Chrysochloris_asiatica/Chrysochloris_asiatica.2bit
 trackDb Chrysochloris_asiatica/trackDb.txt
 groups groups.txt
@@ -549,6 +599,7 @@ scientificName Chrysochloris_asiatica
 defaultPos ChrAsi_scaffold_0:1-1000
 
 genome Colobus_angolensis
+chromAliasBb Colobus_angolensis/Colobus_angolensis.chromAlias.bb
 twoBitPath Colobus_angolensis/Colobus_angolensis.2bit
 trackDb Colobus_angolensis/trackDb.txt
 groups groups.txt
@@ -560,6 +611,7 @@ scientificName Colobus_angolensis
 defaultPos KN983729.1:1-1000
 
 genome Condylura_cristata
+chromAliasBb Condylura_cristata/Condylura_cristata.chromAlias.bb
 twoBitPath Condylura_cristata/Condylura_cristata.2bit
 trackDb Condylura_cristata/trackDb.txt
 groups groups.txt
@@ -571,6 +623,7 @@ scientificName Condylura_cristata
 defaultPos JH655878.1:1-1000
 
 genome Craseonycteris_thonglongyai
+chromAliasBb Craseonycteris_thonglongyai/Craseonycteris_thonglongyai.chromAlias.bb
 twoBitPath Craseonycteris_thonglongyai/Craseonycteris_thonglongyai.2bit
 trackDb Craseonycteris_thonglongyai/trackDb.txt
 groups groups.txt
@@ -582,6 +635,7 @@ scientificName Craseonycteris_thonglongyai
 defaultPos CraTho_scaffold_0:1-1000
 
 genome Cricetomys_gambianus
+chromAliasBb Cricetomys_gambianus/Cricetomys_gambianus.chromAlias.bb
 twoBitPath Cricetomys_gambianus/Cricetomys_gambianus.2bit
 trackDb Cricetomys_gambianus/trackDb.txt
 groups groups.txt
@@ -593,6 +647,7 @@ scientificName Cricetomys_gambianus
 defaultPos CriGam_scaffold_0:1-1000
 
 genome Cricetulus_griseus
+chromAliasBb Cricetulus_griseus/Cricetulus_griseus.chromAlias.bb
 twoBitPath Cricetulus_griseus/Cricetulus_griseus.2bit
 trackDb Cricetulus_griseus/trackDb.txt
 groups groups.txt
@@ -604,6 +659,7 @@ scientificName Cricetulus_griseus
 defaultPos LT883664.1:1-1000
 
 genome Crocidura_indochinensis
+chromAliasBb Crocidura_indochinensis/Crocidura_indochinensis.chromAlias.bb
 twoBitPath Crocidura_indochinensis/Crocidura_indochinensis.2bit
 trackDb Crocidura_indochinensis/trackDb.txt
 groups groups.txt
@@ -615,6 +671,7 @@ scientificName Crocidura_indochinensis
 defaultPos CroInd_scaffold_0:1-1000
 
 genome Cryptoprocta_ferox
+chromAliasBb Cryptoprocta_ferox/Cryptoprocta_ferox.chromAlias.bb
 twoBitPath Cryptoprocta_ferox/Cryptoprocta_ferox.2bit
 trackDb Cryptoprocta_ferox/trackDb.txt
 groups groups.txt
@@ -626,6 +683,7 @@ scientificName Cryptoprocta_ferox
 defaultPos CryFer_flattened_line_0:1-1000
 
 genome Ctenodactylus_gundi
+chromAliasBb Ctenodactylus_gundi/Ctenodactylus_gundi.chromAlias.bb
 twoBitPath Ctenodactylus_gundi/Ctenodactylus_gundi.2bit
 trackDb Ctenodactylus_gundi/trackDb.txt
 groups groups.txt
@@ -637,6 +695,7 @@ scientificName Ctenodactylus_gundi
 defaultPos CteGun_scaffold_0:1-1000
 
 genome Ctenomys_sociabilis
+chromAliasBb Ctenomys_sociabilis/Ctenomys_sociabilis.chromAlias.bb
 twoBitPath Ctenomys_sociabilis/Ctenomys_sociabilis.2bit
 trackDb Ctenomys_sociabilis/trackDb.txt
 groups groups.txt
@@ -648,6 +707,7 @@ scientificName Ctenomys_sociabilis
 defaultPos CteSoc_scaffold_0:1-1000
 
 genome Cuniculus_paca
+chromAliasBb Cuniculus_paca/Cuniculus_paca.chromAlias.bb
 twoBitPath Cuniculus_paca/Cuniculus_paca.2bit
 trackDb Cuniculus_paca/trackDb.txt
 groups groups.txt
@@ -659,6 +719,7 @@ scientificName Cuniculus_paca
 defaultPos CunPac_flattened_line_0:1-1000
 
 genome Dasyprocta_punctata
+chromAliasBb Dasyprocta_punctata/Dasyprocta_punctata.chromAlias.bb
 twoBitPath Dasyprocta_punctata/Dasyprocta_punctata.2bit
 trackDb Dasyprocta_punctata/trackDb.txt
 groups groups.txt
@@ -670,6 +731,7 @@ scientificName Dasyprocta_punctata
 defaultPos DasPun_flattened_line_0:1-1000
 
 genome Dasypus_novemcinctus
+chromAliasBb Dasypus_novemcinctus/Dasypus_novemcinctus.chromAlias.bb
 twoBitPath Dasypus_novemcinctus/Dasypus_novemcinctus.2bit
 trackDb Dasypus_novemcinctus/trackDb.txt
 groups groups.txt
@@ -681,6 +743,7 @@ scientificName Dasypus_novemcinctus
 defaultPos JH573670.1:1-1000
 
 genome Daubentonia_madagascariensis
+chromAliasBb Daubentonia_madagascariensis/Daubentonia_madagascariensis.chromAlias.bb
 twoBitPath Daubentonia_madagascariensis/Daubentonia_madagascariensis.2bit
 trackDb Daubentonia_madagascariensis/trackDb.txt
 groups groups.txt
@@ -692,6 +755,7 @@ scientificName Daubentonia_madagascariensis
 defaultPos DauMad_scaffold_0:1-1000
 
 genome Delphinapterus_leucas
+chromAliasBb Delphinapterus_leucas/Delphinapterus_leucas.chromAlias.bb
 twoBitPath Delphinapterus_leucas/Delphinapterus_leucas.2bit
 trackDb Delphinapterus_leucas/trackDb.txt
 groups groups.txt
@@ -703,6 +767,7 @@ scientificName Delphinapterus_leucas
 defaultPos KZ290064.1:1-1000
 
 genome Desmodus_rotundus
+chromAliasBb Desmodus_rotundus/Desmodus_rotundus.chromAlias.bb
 twoBitPath Desmodus_rotundus/Desmodus_rotundus.2bit
 trackDb Desmodus_rotundus/trackDb.txt
 groups groups.txt
@@ -714,6 +779,7 @@ scientificName Desmodus_rotundus
 defaultPos KZ672450.1:1-1000
 
 genome Dicerorhinus_sumatrensis
+chromAliasBb Dicerorhinus_sumatrensis/Dicerorhinus_sumatrensis.chromAlias.bb
 twoBitPath Dicerorhinus_sumatrensis/Dicerorhinus_sumatrensis.2bit
 trackDb Dicerorhinus_sumatrensis/trackDb.txt
 groups groups.txt
@@ -725,6 +791,7 @@ scientificName Dicerorhinus_sumatrensis
 defaultPos PEKH010005875.1:1-1000
 
 genome Diceros_bicornis
+chromAliasBb Diceros_bicornis/Diceros_bicornis.chromAlias.bb
 twoBitPath Diceros_bicornis/Diceros_bicornis.2bit
 trackDb Diceros_bicornis/trackDb.txt
 groups groups.txt
@@ -736,6 +803,7 @@ scientificName Diceros_bicornis
 defaultPos DicBicMic_scaffold_0:1-1000
 
 genome Dinomys_branickii
+chromAliasBb Dinomys_branickii/Dinomys_branickii.chromAlias.bb
 twoBitPath Dinomys_branickii/Dinomys_branickii.2bit
 trackDb Dinomys_branickii/trackDb.txt
 groups groups.txt
@@ -747,6 +815,7 @@ scientificName Dinomys_branickii
 defaultPos DinBra_scaffold_0:1-1000
 
 genome Dipodomys_ordii
+chromAliasBb Dipodomys_ordii/Dipodomys_ordii.chromAlias.bb
 twoBitPath Dipodomys_ordii/Dipodomys_ordii.2bit
 trackDb Dipodomys_ordii/trackDb.txt
 groups groups.txt
@@ -758,6 +827,7 @@ scientificName Dipodomys_ordii
 defaultPos KN672347.1:1-1000
 
 genome Dipodomys_stephensi
+chromAliasBb Dipodomys_stephensi/Dipodomys_stephensi.chromAlias.bb
 twoBitPath Dipodomys_stephensi/Dipodomys_stephensi.2bit
 trackDb Dipodomys_stephensi/trackDb.txt
 groups groups.txt
@@ -769,6 +839,7 @@ scientificName Dipodomys_stephensi
 defaultPos DipSte_scaffold_0:1-1000
 
 genome Dolichotis_patagonum
+chromAliasBb Dolichotis_patagonum/Dolichotis_patagonum.chromAlias.bb
 twoBitPath Dolichotis_patagonum/Dolichotis_patagonum.2bit
 trackDb Dolichotis_patagonum/trackDb.txt
 groups groups.txt
@@ -780,6 +851,7 @@ scientificName Dolichotis_patagonum
 defaultPos DolPat_scaffold_0:1-1000
 
 genome Echinops_telfairi
+chromAliasBb Echinops_telfairi/Echinops_telfairi.chromAlias.bb
 twoBitPath Echinops_telfairi/Echinops_telfairi.2bit
 trackDb Echinops_telfairi/trackDb.txt
 groups groups.txt
@@ -791,6 +863,7 @@ scientificName Echinops_telfairi
 defaultPos JH980293.1:1-1000
 
 genome Eidolon_helvum
+chromAliasBb Eidolon_helvum/Eidolon_helvum.chromAlias.bb
 twoBitPath Eidolon_helvum/Eidolon_helvum.2bit
 trackDb Eidolon_helvum/trackDb.txt
 groups groups.txt
@@ -802,6 +875,7 @@ scientificName Eidolon_helvum
 defaultPos KE749393.1:1-1000
 
 genome Elaphurus_davidianus
+chromAliasBb Elaphurus_davidianus/Elaphurus_davidianus.chromAlias.bb
 twoBitPath Elaphurus_davidianus/Elaphurus_davidianus.2bit
 trackDb Elaphurus_davidianus/trackDb.txt
 groups groups.txt
@@ -813,6 +887,7 @@ scientificName Elaphurus_davidianus
 defaultPos JRFZ01112095.1:1-1000
 
 genome Elephantulus_edwardii
+chromAliasBb Elephantulus_edwardii/Elephantulus_edwardii.chromAlias.bb
 twoBitPath Elephantulus_edwardii/Elephantulus_edwardii.2bit
 trackDb Elephantulus_edwardii/trackDb.txt
 groups groups.txt
@@ -824,6 +899,7 @@ scientificName Elephantulus_edwardii
 defaultPos JH947130.1:1-1000
 
 genome Ellobius_lutescens
+chromAliasBb Ellobius_lutescens/Ellobius_lutescens.chromAlias.bb
 twoBitPath Ellobius_lutescens/Ellobius_lutescens.2bit
 trackDb Ellobius_lutescens/trackDb.txt
 groups groups.txt
@@ -835,6 +911,7 @@ scientificName Ellobius_lutescens
 defaultPos LOEQ01000025.1:1-1000
 
 genome Ellobius_talpinus
+chromAliasBb Ellobius_talpinus/Ellobius_talpinus.chromAlias.bb
 twoBitPath Ellobius_talpinus/Ellobius_talpinus.2bit
 trackDb Ellobius_talpinus/trackDb.txt
 groups groups.txt
@@ -846,6 +923,7 @@ scientificName Ellobius_talpinus
 defaultPos LOJH01000002.1:1-1000
 
 genome Enhydra_lutris
+chromAliasBb Enhydra_lutris/Enhydra_lutris.chromAlias.bb
 twoBitPath Enhydra_lutris/Enhydra_lutris.2bit
 trackDb Enhydra_lutris/trackDb.txt
 groups groups.txt
@@ -857,6 +935,7 @@ scientificName Enhydra_lutris
 defaultPos KZ291748.1:1-1000
 
 genome Eptesicus_fuscus
+chromAliasBb Eptesicus_fuscus/Eptesicus_fuscus.chromAlias.bb
 twoBitPath Eptesicus_fuscus/Eptesicus_fuscus.2bit
 trackDb Eptesicus_fuscus/trackDb.txt
 groups groups.txt
@@ -868,6 +947,7 @@ scientificName Eptesicus_fuscus
 defaultPos JH977611.1:1-1000
 
 genome Equus_asinus
+chromAliasBb Equus_asinus/Equus_asinus.chromAlias.bb
 twoBitPath Equus_asinus/Equus_asinus.2bit
 trackDb Equus_asinus/trackDb.txt
 groups groups.txt
@@ -879,6 +959,7 @@ scientificName Equus_asinus
 defaultPos JREZ01000001.1:1-1000
 
 genome Equus_caballus
+chromAliasBb Equus_caballus/Equus_caballus.chromAlias.bb
 twoBitPath Equus_caballus/Equus_caballus.2bit
 trackDb Equus_caballus/trackDb.txt
 groups groups.txt
@@ -890,6 +971,7 @@ scientificName Equus_caballus
 defaultPos CM000377.2:1-1000
 
 genome Equus_przewalskii
+chromAliasBb Equus_przewalskii/Equus_przewalskii.chromAlias.bb
 twoBitPath Equus_przewalskii/Equus_przewalskii.2bit
 trackDb Equus_przewalskii/trackDb.txt
 groups groups.txt
@@ -901,6 +983,7 @@ scientificName Equus_przewalskii
 defaultPos KK949850.1:1-1000
 
 genome Erinaceus_europaeus
+chromAliasBb Erinaceus_europaeus/Erinaceus_europaeus.chromAlias.bb
 twoBitPath Erinaceus_europaeus/Erinaceus_europaeus.2bit
 trackDb Erinaceus_europaeus/trackDb.txt
 groups groups.txt
@@ -912,6 +995,7 @@ scientificName Erinaceus_europaeus
 defaultPos JH835289.1:1-1000
 
 genome Erythrocebus_patas
+chromAliasBb Erythrocebus_patas/Erythrocebus_patas.chromAlias.bb
 twoBitPath Erythrocebus_patas/Erythrocebus_patas.2bit
 trackDb Erythrocebus_patas/trackDb.txt
 groups groups.txt
@@ -923,6 +1007,7 @@ scientificName Erythrocebus_patas
 defaultPos EryPat_scaffold_0:1-1000
 
 genome Eschrichtius_robustus
+chromAliasBb Eschrichtius_robustus/Eschrichtius_robustus.chromAlias.bb
 twoBitPath Eschrichtius_robustus/Eschrichtius_robustus.2bit
 trackDb Eschrichtius_robustus/trackDb.txt
 groups groups.txt
@@ -934,6 +1019,7 @@ scientificName Eschrichtius_robustus
 defaultPos EscRob_flattened_line_0:1-1000
 
 genome Eubalaena_japonica
+chromAliasBb Eubalaena_japonica/Eubalaena_japonica.chromAlias.bb
 twoBitPath Eubalaena_japonica/Eubalaena_japonica.2bit
 trackDb Eubalaena_japonica/trackDb.txt
 groups groups.txt
@@ -945,6 +1031,7 @@ scientificName Eubalaena_japonica
 defaultPos EubJap_flattened_line_0:1-1000
 
 genome Eulemur_flavifrons
+chromAliasBb Eulemur_flavifrons/Eulemur_flavifrons.chromAlias.bb
 twoBitPath Eulemur_flavifrons/Eulemur_flavifrons.2bit
 trackDb Eulemur_flavifrons/trackDb.txt
 groups groups.txt
@@ -956,6 +1043,7 @@ scientificName Eulemur_flavifrons
 defaultPos LGHW01002226.1:1-1000
 
 genome Eulemur_fulvus
+chromAliasBb Eulemur_fulvus/Eulemur_fulvus.chromAlias.bb
 twoBitPath Eulemur_fulvus/Eulemur_fulvus.2bit
 trackDb Eulemur_fulvus/trackDb.txt
 groups groups.txt
@@ -967,6 +1055,7 @@ scientificName Eulemur_fulvus
 defaultPos EulFul_scaffold_0:1-1000
 
 genome Felis_catus
+chromAliasBb Felis_catus/Felis_catus.chromAlias.bb
 twoBitPath Felis_catus/Felis_catus.2bit
 trackDb Felis_catus/trackDb.txt
 groups groups.txt
@@ -978,6 +1067,7 @@ scientificName Felis_catus
 defaultPos CM001378.2:1-1000
 
 genome Felis_nigripes
+chromAliasBb Felis_nigripes/Felis_nigripes.chromAlias.bb
 twoBitPath Felis_nigripes/Felis_nigripes.2bit
 trackDb Felis_nigripes/trackDb.txt
 groups groups.txt
@@ -989,6 +1079,7 @@ scientificName Felis_nigripes
 defaultPos FelNig_flattened_line_0:1-1000
 
 genome Fukomys_damarensis
+chromAliasBb Fukomys_damarensis/Fukomys_damarensis.chromAlias.bb
 twoBitPath Fukomys_damarensis/Fukomys_damarensis.2bit
 trackDb Fukomys_damarensis/trackDb.txt
 groups groups.txt
@@ -1000,6 +1091,7 @@ scientificName Fukomys_damarensis
 defaultPos KN122054.1:1-1000
 
 genome Galeopterus_variegatus
+chromAliasBb Galeopterus_variegatus/Galeopterus_variegatus.chromAlias.bb
 twoBitPath Galeopterus_variegatus/Galeopterus_variegatus.2bit
 trackDb Galeopterus_variegatus/trackDb.txt
 groups groups.txt
@@ -1011,6 +1103,7 @@ scientificName Galeopterus_variegatus
 defaultPos GalVar_scaffold_0:1-1000
 
 genome Giraffa_tippelskirchi
+chromAliasBb Giraffa_tippelskirchi/Giraffa_tippelskirchi.chromAlias.bb
 twoBitPath Giraffa_tippelskirchi/Giraffa_tippelskirchi.2bit
 trackDb Giraffa_tippelskirchi/trackDb.txt
 groups groups.txt
@@ -1022,6 +1115,7 @@ scientificName Giraffa_tippelskirchi
 defaultPos LVKQ01S001049.1:1-1000
 
 genome Glis_glis
+chromAliasBb Glis_glis/Glis_glis.chromAlias.bb
 twoBitPath Glis_glis/Glis_glis.2bit
 trackDb Glis_glis/trackDb.txt
 groups groups.txt
@@ -1033,6 +1127,7 @@ scientificName Glis_glis
 defaultPos GliGli_scaffold_0:1-1000
 
 genome Gorilla_gorilla
+chromAliasBb Gorilla_gorilla/Gorilla_gorilla.chromAlias.bb
 twoBitPath Gorilla_gorilla/Gorilla_gorilla.2bit
 trackDb Gorilla_gorilla/trackDb.txt
 groups groups.txt
@@ -1044,6 +1139,7 @@ scientificName Gorilla_gorilla
 defaultPos LT578324.1:1-1000
 
 genome Graphiurus_murinus
+chromAliasBb Graphiurus_murinus/Graphiurus_murinus.chromAlias.bb
 twoBitPath Graphiurus_murinus/Graphiurus_murinus.2bit
 trackDb Graphiurus_murinus/trackDb.txt
 groups groups.txt
@@ -1055,6 +1151,7 @@ scientificName Graphiurus_murinus
 defaultPos GraMur_scaffold_0:1-1000
 
 genome Helogale_parvula
+chromAliasBb Helogale_parvula/Helogale_parvula.chromAlias.bb
 twoBitPath Helogale_parvula/Helogale_parvula.2bit
 trackDb Helogale_parvula/trackDb.txt
 groups groups.txt
@@ -1066,6 +1163,7 @@ scientificName Helogale_parvula
 defaultPos HelPar_flattened_line_0:1-1000
 
 genome Hemitragus_hylocrius
+chromAliasBb Hemitragus_hylocrius/Hemitragus_hylocrius.chromAlias.bb
 twoBitPath Hemitragus_hylocrius/Hemitragus_hylocrius.2bit
 trackDb Hemitragus_hylocrius/trackDb.txt
 groups groups.txt
@@ -1077,6 +1175,7 @@ scientificName Hemitragus_hylocrius
 defaultPos HemHyl_scaffold_2:1-1000
 
 genome Heterocephalus_glaber
+chromAliasBb Heterocephalus_glaber/Heterocephalus_glaber.chromAlias.bb
 twoBitPath Heterocephalus_glaber/Heterocephalus_glaber.2bit
 trackDb Heterocephalus_glaber/trackDb.txt
 groups groups.txt
@@ -1088,6 +1187,7 @@ scientificName Heterocephalus_glaber
 defaultPos JH602043.1:1-1000
 
 genome Heterohyrax_brucei
+chromAliasBb Heterohyrax_brucei/Heterohyrax_brucei.chromAlias.bb
 twoBitPath Heterohyrax_brucei/Heterohyrax_brucei.2bit
 trackDb Heterohyrax_brucei/trackDb.txt
 groups groups.txt
@@ -1099,6 +1199,7 @@ scientificName Heterohyrax_brucei
 defaultPos HetBruBak_scaffold_0:1-1000
 
 genome Hippopotamus_amphibius
+chromAliasBb Hippopotamus_amphibius/Hippopotamus_amphibius.chromAlias.bb
 twoBitPath Hippopotamus_amphibius/Hippopotamus_amphibius.2bit
 trackDb Hippopotamus_amphibius/trackDb.txt
 groups groups.txt
@@ -1110,6 +1211,7 @@ scientificName Hippopotamus_amphibius
 defaultPos HipAmp_scaffold_0:1-1000
 
 genome Hipposideros_armiger
+chromAliasBb Hipposideros_armiger/Hipposideros_armiger.chromAlias.bb
 twoBitPath Hipposideros_armiger/Hipposideros_armiger.2bit
 trackDb Hipposideros_armiger/trackDb.txt
 groups groups.txt
@@ -1121,6 +1223,7 @@ scientificName Hipposideros_armiger
 defaultPos JXIK01000001.1:1-1000
 
 genome Hipposideros_galeritus
+chromAliasBb Hipposideros_galeritus/Hipposideros_galeritus.chromAlias.bb
 twoBitPath Hipposideros_galeritus/Hipposideros_galeritus.2bit
 trackDb Hipposideros_galeritus/trackDb.txt
 groups groups.txt
@@ -1132,6 +1235,7 @@ scientificName Hipposideros_galeritus
 defaultPos HipGal_scaffold_2:1-1000
 
 genome Homo_sapiens
+chromAliasBb Homo_sapiens/Homo_sapiens.chromAlias.bb
 twoBitPath Homo_sapiens/Homo_sapiens.2bit
 trackDb Homo_sapiens/trackDb.txt
 groups groups.txt
@@ -1143,6 +1247,7 @@ scientificName Homo_sapiens
 defaultPos chr20:10000000-10100000
 
 genome Hyaena_hyaena
+chromAliasBb Hyaena_hyaena/Hyaena_hyaena.chromAlias.bb
 twoBitPath Hyaena_hyaena/Hyaena_hyaena.2bit
 trackDb Hyaena_hyaena/trackDb.txt
 groups groups.txt
@@ -1154,6 +1259,7 @@ scientificName Hyaena_hyaena
 defaultPos HyaHya_flattened_line_0:1-1000
 
 genome Hydrochoerus_hydrochaeris
+chromAliasBb Hydrochoerus_hydrochaeris/Hydrochoerus_hydrochaeris.chromAlias.bb
 twoBitPath Hydrochoerus_hydrochaeris/Hydrochoerus_hydrochaeris.2bit
 trackDb Hydrochoerus_hydrochaeris/trackDb.txt
 groups groups.txt
@@ -1165,6 +1271,7 @@ scientificName Hydrochoerus_hydrochaeris
 defaultPos HydHyd_scaffold_0:1-1000
 
 genome Hystrix_cristata
+chromAliasBb Hystrix_cristata/Hystrix_cristata.chromAlias.bb
 twoBitPath Hystrix_cristata/Hystrix_cristata.2bit
 trackDb Hystrix_cristata/trackDb.txt
 groups groups.txt
@@ -1176,6 +1283,7 @@ scientificName Hystrix_cristata
 defaultPos HysCri_scaffold_0:1-1000
 
 genome Ictidomys_tridecemlineatus
+chromAliasBb Ictidomys_tridecemlineatus/Ictidomys_tridecemlineatus.chromAlias.bb
 twoBitPath Ictidomys_tridecemlineatus/Ictidomys_tridecemlineatus.2bit
 trackDb Ictidomys_tridecemlineatus/trackDb.txt
 groups groups.txt
@@ -1187,6 +1295,7 @@ scientificName Ictidomys_tridecemlineatus
 defaultPos JH393279.1:1-1000
 
 genome Indri_indri
+chromAliasBb Indri_indri/Indri_indri.chromAlias.bb
 twoBitPath Indri_indri/Indri_indri.2bit
 trackDb Indri_indri/trackDb.txt
 groups groups.txt
@@ -1198,6 +1307,7 @@ scientificName Indri_indri
 defaultPos IndInd_flattened_line_0:1-1000
 
 genome Inia_geoffrensis
+chromAliasBb Inia_geoffrensis/Inia_geoffrensis.chromAlias.bb
 twoBitPath Inia_geoffrensis/Inia_geoffrensis.2bit
 trackDb Inia_geoffrensis/trackDb.txt
 groups groups.txt
@@ -1209,6 +1319,7 @@ scientificName Inia_geoffrensis
 defaultPos IniGeo_flattened_line_0:1-1000
 
 genome Jaculus_jaculus
+chromAliasBb Jaculus_jaculus/Jaculus_jaculus.chromAlias.bb
 twoBitPath Jaculus_jaculus/Jaculus_jaculus.2bit
 trackDb Jaculus_jaculus/trackDb.txt
 groups groups.txt
@@ -1220,6 +1331,7 @@ scientificName Jaculus_jaculus
 defaultPos JH725437.1:1-1000
 
 genome Kogia_breviceps
+chromAliasBb Kogia_breviceps/Kogia_breviceps.chromAlias.bb
 twoBitPath Kogia_breviceps/Kogia_breviceps.2bit
 trackDb Kogia_breviceps/trackDb.txt
 groups groups.txt
@@ -1231,6 +1343,7 @@ scientificName Kogia_breviceps
 defaultPos KogBre_flattened_line_0:1-1000
 
 genome Lasiurus_borealis
+chromAliasBb Lasiurus_borealis/Lasiurus_borealis.chromAlias.bb
 twoBitPath Lasiurus_borealis/Lasiurus_borealis.2bit
 trackDb Lasiurus_borealis/trackDb.txt
 groups groups.txt
@@ -1242,6 +1355,7 @@ scientificName Lasiurus_borealis
 defaultPos LasBor_scaffold_0:1-1000
 
 genome Lemur_catta
+chromAliasBb Lemur_catta/Lemur_catta.chromAlias.bb
 twoBitPath Lemur_catta/Lemur_catta.2bit
 trackDb Lemur_catta/trackDb.txt
 groups groups.txt
@@ -1253,6 +1367,7 @@ scientificName Lemur_catta
 defaultPos LemCat_scaffold_0:1-1000
 
 genome Leptonychotes_weddellii
+chromAliasBb Leptonychotes_weddellii/Leptonychotes_weddellii.chromAlias.bb
 twoBitPath Leptonychotes_weddellii/Leptonychotes_weddellii.2bit
 trackDb Leptonychotes_weddellii/trackDb.txt
 groups groups.txt
@@ -1264,6 +1379,7 @@ scientificName Leptonychotes_weddellii
 defaultPos KB714707.1:1-1000
 
 genome Lepus_americanus
+chromAliasBb Lepus_americanus/Lepus_americanus.chromAlias.bb
 twoBitPath Lepus_americanus/Lepus_americanus.2bit
 trackDb Lepus_americanus/trackDb.txt
 groups groups.txt
@@ -1275,6 +1391,7 @@ scientificName Lepus_americanus
 defaultPos LepAme_scaffold_0:1-1000
 
 genome Lipotes_vexillifer
+chromAliasBb Lipotes_vexillifer/Lipotes_vexillifer.chromAlias.bb
 twoBitPath Lipotes_vexillifer/Lipotes_vexillifer.2bit
 trackDb Lipotes_vexillifer/trackDb.txt
 groups groups.txt
@@ -1286,6 +1403,7 @@ scientificName Lipotes_vexillifer
 defaultPos KE558520.1:1-1000
 
 genome Loxodonta_africana
+chromAliasBb Loxodonta_africana/Loxodonta_africana.chromAlias.bb
 twoBitPath Loxodonta_africana/Loxodonta_africana.2bit
 trackDb Loxodonta_africana/trackDb.txt
 groups groups.txt
@@ -1297,6 +1415,7 @@ scientificName Loxodonta_africana
 defaultPos GL010027.1:1-1000
 
 genome Lycaon_pictus
+chromAliasBb Lycaon_pictus/Lycaon_pictus.chromAlias.bb
 twoBitPath Lycaon_pictus/Lycaon_pictus.2bit
 trackDb Lycaon_pictus/trackDb.txt
 groups groups.txt
@@ -1308,6 +1427,7 @@ scientificName Lycaon_pictus
 defaultPos CM007575.1:1-1000
 
 genome Macaca_fascicularis
+chromAliasBb Macaca_fascicularis/Macaca_fascicularis.chromAlias.bb
 twoBitPath Macaca_fascicularis/Macaca_fascicularis.2bit
 trackDb Macaca_fascicularis/trackDb.txt
 groups groups.txt
@@ -1319,6 +1439,7 @@ scientificName Macaca_fascicularis
 defaultPos CM001919.1:1-1000
 
 genome Macaca_mulatta
+chromAliasBb Macaca_mulatta/Macaca_mulatta.chromAlias.bb
 twoBitPath Macaca_mulatta/Macaca_mulatta.2bit
 trackDb Macaca_mulatta/trackDb.txt
 groups groups.txt
@@ -1330,6 +1451,7 @@ scientificName Macaca_mulatta
 defaultPos CM002977.3:1-1000
 
 genome Macaca_nemestrina
+chromAliasBb Macaca_nemestrina/Macaca_nemestrina.chromAlias.bb
 twoBitPath Macaca_nemestrina/Macaca_nemestrina.2bit
 trackDb Macaca_nemestrina/trackDb.txt
 groups groups.txt
@@ -1341,6 +1463,7 @@ scientificName Macaca_nemestrina
 defaultPos KQ009060.1:1-1000
 
 genome Macroglossus_sobrinus
+chromAliasBb Macroglossus_sobrinus/Macroglossus_sobrinus.chromAlias.bb
 twoBitPath Macroglossus_sobrinus/Macroglossus_sobrinus.2bit
 trackDb Macroglossus_sobrinus/trackDb.txt
 groups groups.txt
@@ -1352,6 +1475,7 @@ scientificName Macroglossus_sobrinus
 defaultPos MacSob_scaffold_0:1-1000
 
 genome Mandrillus_leucophaeus
+chromAliasBb Mandrillus_leucophaeus/Mandrillus_leucophaeus.chromAlias.bb
 twoBitPath Mandrillus_leucophaeus/Mandrillus_leucophaeus.2bit
 trackDb Mandrillus_leucophaeus/trackDb.txt
 groups groups.txt
@@ -1363,6 +1487,7 @@ scientificName Mandrillus_leucophaeus
 defaultPos KN972984.1:1-1000
 
 genome Manis_javanica
+chromAliasBb Manis_javanica/Manis_javanica.chromAlias.bb
 twoBitPath Manis_javanica/Manis_javanica.2bit
 trackDb Manis_javanica/trackDb.txt
 groups groups.txt
@@ -1374,6 +1499,7 @@ scientificName Manis_javanica
 defaultPos JSZB01000232.1:1-1000
 
 genome Manis_pentadactyla
+chromAliasBb Manis_pentadactyla/Manis_pentadactyla.chromAlias.bb
 twoBitPath Manis_pentadactyla/Manis_pentadactyla.2bit
 trackDb Manis_pentadactyla/trackDb.txt
 groups groups.txt
@@ -1385,6 +1511,7 @@ scientificName Manis_pentadactyla
 defaultPos KN005617.1:1-1000
 
 genome Marmota_marmota
+chromAliasBb Marmota_marmota/Marmota_marmota.chromAlias.bb
 twoBitPath Marmota_marmota/Marmota_marmota.2bit
 trackDb Marmota_marmota/trackDb.txt
 groups groups.txt
@@ -1396,6 +1523,7 @@ scientificName Marmota_marmota
 defaultPos CZRN01000001.1:1-1000
 
 genome Megaderma_lyra
+chromAliasBb Megaderma_lyra/Megaderma_lyra.chromAlias.bb
 twoBitPath Megaderma_lyra/Megaderma_lyra.2bit
 trackDb Megaderma_lyra/trackDb.txt
 groups groups.txt
@@ -1407,6 +1535,7 @@ scientificName Megaderma_lyra
 defaultPos MegLyr_scaffold_0:1-1000
 
 genome Mellivora_capensis
+chromAliasBb Mellivora_capensis/Mellivora_capensis.chromAlias.bb
 twoBitPath Mellivora_capensis/Mellivora_capensis.2bit
 trackDb Mellivora_capensis/trackDb.txt
 groups groups.txt
@@ -1418,6 +1547,7 @@ scientificName Mellivora_capensis
 defaultPos MelCap_flattened_line_0:1-1000
 
 genome Meriones_unguiculatus
+chromAliasBb Meriones_unguiculatus/Meriones_unguiculatus.chromAlias.bb
 twoBitPath Meriones_unguiculatus/Meriones_unguiculatus.2bit
 trackDb Meriones_unguiculatus/trackDb.txt
 groups groups.txt
@@ -1429,6 +1559,7 @@ scientificName Meriones_unguiculatus
 defaultPos MerUng_scaffold_0:1-1000
 
 genome Mesocricetus_auratus
+chromAliasBb Mesocricetus_auratus/Mesocricetus_auratus.chromAlias.bb
 twoBitPath Mesocricetus_auratus/Mesocricetus_auratus.2bit
 trackDb Mesocricetus_auratus/trackDb.txt
 groups groups.txt
@@ -1440,6 +1571,7 @@ scientificName Mesocricetus_auratus
 defaultPos KB708127.1:1-1000
 
 genome Mesoplodon_bidens
+chromAliasBb Mesoplodon_bidens/Mesoplodon_bidens.chromAlias.bb
 twoBitPath Mesoplodon_bidens/Mesoplodon_bidens.2bit
 trackDb Mesoplodon_bidens/trackDb.txt
 groups groups.txt
@@ -1451,6 +1583,7 @@ scientificName Mesoplodon_bidens
 defaultPos MesBid_scaffold_0:1-1000
 
 genome Microcebus_murinus
+chromAliasBb Microcebus_murinus/Microcebus_murinus.chromAlias.bb
 twoBitPath Microcebus_murinus/Microcebus_murinus.2bit
 trackDb Microcebus_murinus/trackDb.txt
 groups groups.txt
@@ -1462,6 +1595,7 @@ scientificName Microcebus_murinus
 defaultPos CM007668.1:1-1000
 
 genome Microgale_talazaci
+chromAliasBb Microgale_talazaci/Microgale_talazaci.chromAlias.bb
 twoBitPath Microgale_talazaci/Microgale_talazaci.2bit
 trackDb Microgale_talazaci/trackDb.txt
 groups groups.txt
@@ -1473,6 +1607,7 @@ scientificName Microgale_talazaci
 defaultPos MicTal_scaffold_0:1-1000
 
 genome Micronycteris_hirsuta
+chromAliasBb Micronycteris_hirsuta/Micronycteris_hirsuta.chromAlias.bb
 twoBitPath Micronycteris_hirsuta/Micronycteris_hirsuta.2bit
 trackDb Micronycteris_hirsuta/trackDb.txt
 groups groups.txt
@@ -1484,6 +1619,7 @@ scientificName Micronycteris_hirsuta
 defaultPos MicHir_scaffold_0:1-1000
 
 genome Microtus_ochrogaster
+chromAliasBb Microtus_ochrogaster/Microtus_ochrogaster.chromAlias.bb
 twoBitPath Microtus_ochrogaster/Microtus_ochrogaster.2bit
 trackDb Microtus_ochrogaster/trackDb.txt
 groups groups.txt
@@ -1495,6 +1631,7 @@ scientificName Microtus_ochrogaster
 defaultPos CM001672.1:1-1000
 
 genome Miniopterus_natalensis
+chromAliasBb Miniopterus_natalensis/Miniopterus_natalensis.chromAlias.bb
 twoBitPath Miniopterus_natalensis/Miniopterus_natalensis.2bit
 trackDb Miniopterus_natalensis/trackDb.txt
 groups groups.txt
@@ -1506,6 +1643,7 @@ scientificName Miniopterus_natalensis
 defaultPos LDJU01000001.1:1-1000
 
 genome Miniopterus_schreibersii
+chromAliasBb Miniopterus_schreibersii/Miniopterus_schreibersii.chromAlias.bb
 twoBitPath Miniopterus_schreibersii/Miniopterus_schreibersii.2bit
 trackDb Miniopterus_schreibersii/trackDb.txt
 groups groups.txt
@@ -1517,6 +1655,7 @@ scientificName Miniopterus_schreibersii
 defaultPos MinSch_scaffold_0:1-1000
 
 genome Mirounga_angustirostris
+chromAliasBb Mirounga_angustirostris/Mirounga_angustirostris.chromAlias.bb
 twoBitPath Mirounga_angustirostris/Mirounga_angustirostris.2bit
 trackDb Mirounga_angustirostris/trackDb.txt
 groups groups.txt
@@ -1528,6 +1667,7 @@ scientificName Mirounga_angustirostris
 defaultPos MirAng_flattened_line_0:1-1000
 
 genome Mirza_coquereli
+chromAliasBb Mirza_coquereli/Mirza_coquereli.chromAlias.bb
 twoBitPath Mirza_coquereli/Mirza_coquereli.2bit
 trackDb Mirza_coquereli/trackDb.txt
 groups groups.txt
@@ -1539,6 +1679,7 @@ scientificName Mirza_coquereli
 defaultPos MizCoq_scaffold_0:1-1000
 
 genome Monodon_monoceros
+chromAliasBb Monodon_monoceros/Monodon_monoceros.chromAlias.bb
 twoBitPath Monodon_monoceros/Monodon_monoceros.2bit
 trackDb Monodon_monoceros/trackDb.txt
 groups groups.txt
@@ -1550,6 +1691,7 @@ scientificName Monodon_monoceros
 defaultPos MonMon_M_scaffold_0:1-1000
 
 genome Mormoops_blainvillei
+chromAliasBb Mormoops_blainvillei/Mormoops_blainvillei.chromAlias.bb
 twoBitPath Mormoops_blainvillei/Mormoops_blainvillei.2bit
 trackDb Mormoops_blainvillei/trackDb.txt
 groups groups.txt
@@ -1561,6 +1703,7 @@ scientificName Mormoops_blainvillei
 defaultPos MorMeg_scaffold_0:1-1000
 
 genome Moschus_moschiferus
+chromAliasBb Moschus_moschiferus/Moschus_moschiferus.chromAlias.bb
 twoBitPath Moschus_moschiferus/Moschus_moschiferus.2bit
 trackDb Moschus_moschiferus/trackDb.txt
 groups groups.txt
@@ -1572,6 +1715,7 @@ scientificName Moschus_moschiferus
 defaultPos MosMos_scaffold_0:1-1000
 
 genome Mungos_mungo
+chromAliasBb Mungos_mungo/Mungos_mungo.chromAlias.bb
 twoBitPath Mungos_mungo/Mungos_mungo.2bit
 trackDb Mungos_mungo/trackDb.txt
 groups groups.txt
@@ -1583,6 +1727,7 @@ scientificName Mungos_mungo
 defaultPos MunMun_flattened_line_0:1-1000
 
 genome Murina_feae
+chromAliasBb Murina_feae/Murina_feae.chromAlias.bb
 twoBitPath Murina_feae/Murina_feae.2bit
 trackDb Murina_feae/trackDb.txt
 groups groups.txt
@@ -1594,6 +1739,7 @@ scientificName Murina_feae
 defaultPos MurFea_scaffold_0:1-1000
 
 genome Mus_caroli
+chromAliasBb Mus_caroli/Mus_caroli.chromAlias.bb
 twoBitPath Mus_caroli/Mus_caroli.2bit
 trackDb Mus_caroli/trackDb.txt
 groups groups.txt
@@ -1605,6 +1751,7 @@ scientificName Mus_caroli
 defaultPos LT608242.1:1-1000
 
 genome Mus_musculus
+chromAliasBb Mus_musculus/Mus_musculus.chromAlias.bb
 twoBitPath Mus_musculus/Mus_musculus.2bit
 trackDb Mus_musculus/trackDb.txt
 groups groups.txt
@@ -1616,6 +1763,7 @@ scientificName Mus_musculus
 defaultPos chr12:56741761-56761390
 
 genome Mus_pahari
+chromAliasBb Mus_pahari/Mus_pahari.chromAlias.bb
 twoBitPath Mus_pahari/Mus_pahari.2bit
 trackDb Mus_pahari/trackDb.txt
 groups groups.txt
@@ -1627,6 +1775,7 @@ scientificName Mus_pahari
 defaultPos LT608296.1:1-1000
 
 genome Mus_spretus
+chromAliasBb Mus_spretus/Mus_spretus.chromAlias.bb
 twoBitPath Mus_spretus/Mus_spretus.2bit
 trackDb Mus_spretus/trackDb.txt
 groups groups.txt
@@ -1638,6 +1787,7 @@ scientificName Mus_spretus
 defaultPos CM004094.1:1-1000
 
 genome Muscardinus_avellanarius
+chromAliasBb Muscardinus_avellanarius/Muscardinus_avellanarius.chromAlias.bb
 twoBitPath Muscardinus_avellanarius/Muscardinus_avellanarius.2bit
 trackDb Muscardinus_avellanarius/trackDb.txt
 groups groups.txt
@@ -1649,6 +1799,7 @@ scientificName Muscardinus_avellanarius
 defaultPos MusAve_scaffold_0:1-1000
 
 genome Mustela_putorius
+chromAliasBb Mustela_putorius/Mustela_putorius.chromAlias.bb
 twoBitPath Mustela_putorius/Mustela_putorius.2bit
 trackDb Mustela_putorius/trackDb.txt
 groups groups.txt
@@ -1660,6 +1811,7 @@ scientificName Mustela_putorius
 defaultPos JH417973.1:1-1000
 
 genome Myocastor_coypus
+chromAliasBb Myocastor_coypus/Myocastor_coypus.chromAlias.bb
 twoBitPath Myocastor_coypus/Myocastor_coypus.2bit
 trackDb Myocastor_coypus/trackDb.txt
 groups groups.txt
@@ -1671,6 +1823,7 @@ scientificName Myocastor_coypus
 defaultPos MyoCoy_scaffold_0:1-1000
 
 genome Myotis_brandtii
+chromAliasBb Myotis_brandtii/Myotis_brandtii.chromAlias.bb
 twoBitPath Myotis_brandtii/Myotis_brandtii.2bit
 trackDb Myotis_brandtii/trackDb.txt
 groups groups.txt
@@ -1682,6 +1835,7 @@ scientificName Myotis_brandtii
 defaultPos KE161240.1:1-1000
 
 genome Myotis_davidii
+chromAliasBb Myotis_davidii/Myotis_davidii.chromAlias.bb
 twoBitPath Myotis_davidii/Myotis_davidii.2bit
 trackDb Myotis_davidii/trackDb.txt
 groups groups.txt
@@ -1693,6 +1847,7 @@ scientificName Myotis_davidii
 defaultPos KB199562.1:1-1000
 
 genome Myotis_lucifugus
+chromAliasBb Myotis_lucifugus/Myotis_lucifugus.chromAlias.bb
 twoBitPath Myotis_lucifugus/Myotis_lucifugus.2bit
 trackDb Myotis_lucifugus/trackDb.txt
 groups groups.txt
@@ -1704,6 +1859,7 @@ scientificName Myotis_lucifugus
 defaultPos GL429767.1:1-1000
 
 genome Myotis_myotis
+chromAliasBb Myotis_myotis/Myotis_myotis.chromAlias.bb
 twoBitPath Myotis_myotis/Myotis_myotis.2bit
 trackDb Myotis_myotis/trackDb.txt
 groups groups.txt
@@ -1715,6 +1871,7 @@ scientificName Myotis_myotis
 defaultPos MyoMyo_scaffold_0:1-1000
 
 genome Myrmecophaga_tridactyla
+chromAliasBb Myrmecophaga_tridactyla/Myrmecophaga_tridactyla.chromAlias.bb
 twoBitPath Myrmecophaga_tridactyla/Myrmecophaga_tridactyla.2bit
 trackDb Myrmecophaga_tridactyla/trackDb.txt
 groups groups.txt
@@ -1726,6 +1883,7 @@ scientificName Myrmecophaga_tridactyla
 defaultPos MyrTri_scaffold_0:1-1000
 
 genome Nannospalax_galili
+chromAliasBb Nannospalax_galili/Nannospalax_galili.chromAlias.bb
 twoBitPath Nannospalax_galili/Nannospalax_galili.2bit
 trackDb Nannospalax_galili/trackDb.txt
 groups groups.txt
@@ -1737,6 +1895,7 @@ scientificName Nannospalax_galili
 defaultPos KL203742.1:1-1000
 
 genome Nasalis_larvatus
+chromAliasBb Nasalis_larvatus/Nasalis_larvatus.chromAlias.bb
 twoBitPath Nasalis_larvatus/Nasalis_larvatus.2bit
 trackDb Nasalis_larvatus/trackDb.txt
 groups groups.txt
@@ -1748,6 +1907,7 @@ scientificName Nasalis_larvatus
 defaultPos NasLar_scaffold_0:1-1000
 
 genome Neomonachus_schauinslandi
+chromAliasBb Neomonachus_schauinslandi/Neomonachus_schauinslandi.chromAlias.bb
 twoBitPath Neomonachus_schauinslandi/Neomonachus_schauinslandi.2bit
 trackDb Neomonachus_schauinslandi/trackDb.txt
 groups groups.txt
@@ -1759,6 +1919,7 @@ scientificName Neomonachus_schauinslandi
 defaultPos NINY01007705.1:1-1000
 
 genome Neophocaena_asiaeorientalis
+chromAliasBb Neophocaena_asiaeorientalis/Neophocaena_asiaeorientalis.chromAlias.bb
 twoBitPath Neophocaena_asiaeorientalis/Neophocaena_asiaeorientalis.2bit
 trackDb Neophocaena_asiaeorientalis/trackDb.txt
 groups groups.txt
@@ -1770,6 +1931,7 @@ scientificName Neophocaena_asiaeorientalis
 defaultPos KZ688667.1:1-1000
 
 genome Noctilio_leporinus
+chromAliasBb Noctilio_leporinus/Noctilio_leporinus.chromAlias.bb
 twoBitPath Noctilio_leporinus/Noctilio_leporinus.2bit
 trackDb Noctilio_leporinus/trackDb.txt
 groups groups.txt
@@ -1781,6 +1943,7 @@ scientificName Noctilio_leporinus
 defaultPos NocLep_scaffold_0:1-1000
 
 genome Nomascus_leucogenys
+chromAliasBb Nomascus_leucogenys/Nomascus_leucogenys.chromAlias.bb
 twoBitPath Nomascus_leucogenys/Nomascus_leucogenys.2bit
 trackDb Nomascus_leucogenys/trackDb.txt
 groups groups.txt
@@ -1792,6 +1955,7 @@ scientificName Nomascus_leucogenys
 defaultPos CM001648.1:1-1000
 
 genome Nycticebus_coucang
+chromAliasBb Nycticebus_coucang/Nycticebus_coucang.chromAlias.bb
 twoBitPath Nycticebus_coucang/Nycticebus_coucang.2bit
 trackDb Nycticebus_coucang/trackDb.txt
 groups groups.txt
@@ -1803,6 +1967,7 @@ scientificName Nycticebus_coucang
 defaultPos NycCou_scaffold_0:1-1000
 
 genome Ochotona_princeps
+chromAliasBb Ochotona_princeps/Ochotona_princeps.chromAlias.bb
 twoBitPath Ochotona_princeps/Ochotona_princeps.2bit
 trackDb Ochotona_princeps/trackDb.txt
 groups groups.txt
@@ -1814,6 +1979,7 @@ scientificName Ochotona_princeps
 defaultPos JH802061.1:1-1000
 
 genome Octodon_degus
+chromAliasBb Octodon_degus/Octodon_degus.chromAlias.bb
 twoBitPath Octodon_degus/Octodon_degus.2bit
 trackDb Octodon_degus/trackDb.txt
 groups groups.txt
@@ -1825,6 +1991,7 @@ scientificName Octodon_degus
 defaultPos JH651516.1:1-1000
 
 genome Odobenus_rosmarus
+chromAliasBb Odobenus_rosmarus/Odobenus_rosmarus.chromAlias.bb
 twoBitPath Odobenus_rosmarus/Odobenus_rosmarus.2bit
 trackDb Odobenus_rosmarus/trackDb.txt
 groups groups.txt
@@ -1836,6 +2003,7 @@ scientificName Odobenus_rosmarus
 defaultPos KB228879.1:1-1000
 
 genome Odocoileus_virginianus
+chromAliasBb Odocoileus_virginianus/Odocoileus_virginianus.chromAlias.bb
 twoBitPath Odocoileus_virginianus/Odocoileus_virginianus.2bit
 trackDb Odocoileus_virginianus/trackDb.txt
 groups groups.txt
@@ -1847,6 +2015,7 @@ scientificName Odocoileus_virginianus
 defaultPos KZ099958.1:1-1000
 
 genome Okapia_johnstoni
+chromAliasBb Okapia_johnstoni/Okapia_johnstoni.chromAlias.bb
 twoBitPath Okapia_johnstoni/Okapia_johnstoni.2bit
 trackDb Okapia_johnstoni/trackDb.txt
 groups groups.txt
@@ -1858,6 +2027,7 @@ scientificName Okapia_johnstoni
 defaultPos LVCL01S0001936.1:1-1000
 
 genome Ondatra_zibethicus
+chromAliasBb Ondatra_zibethicus/Ondatra_zibethicus.chromAlias.bb
 twoBitPath Ondatra_zibethicus/Ondatra_zibethicus.2bit
 trackDb Ondatra_zibethicus/trackDb.txt
 groups groups.txt
@@ -1869,6 +2039,7 @@ scientificName Ondatra_zibethicus
 defaultPos OndZib_scaffold_0:1-1000
 
 genome Onychomys_torridus
+chromAliasBb Onychomys_torridus/Onychomys_torridus.chromAlias.bb
 twoBitPath Onychomys_torridus/Onychomys_torridus.2bit
 trackDb Onychomys_torridus/trackDb.txt
 groups groups.txt
@@ -1880,6 +2051,7 @@ scientificName Onychomys_torridus
 defaultPos OnyTor_scaffold_0:1-1000
 
 genome Orcinus_orca
+chromAliasBb Orcinus_orca/Orcinus_orca.chromAlias.bb
 twoBitPath Orcinus_orca/Orcinus_orca.2bit
 trackDb Orcinus_orca/trackDb.txt
 groups groups.txt
@@ -1891,6 +2063,7 @@ scientificName Orcinus_orca
 defaultPos KB316842.1:1-1000
 
 genome Orycteropus_afer
+chromAliasBb Orycteropus_afer/Orycteropus_afer.chromAlias.bb
 twoBitPath Orycteropus_afer/Orycteropus_afer.2bit
 trackDb Orycteropus_afer/trackDb.txt
 groups groups.txt
@@ -1902,6 +2075,7 @@ scientificName Orycteropus_afer
 defaultPos OryAfe_flattened_line_0:1-1000
 
 genome Oryctolagus_cuniculus
+chromAliasBb Oryctolagus_cuniculus/Oryctolagus_cuniculus.chromAlias.bb
 twoBitPath Oryctolagus_cuniculus/Oryctolagus_cuniculus.2bit
 trackDb Oryctolagus_cuniculus/trackDb.txt
 groups groups.txt
@@ -1913,6 +2087,7 @@ scientificName Oryctolagus_cuniculus
 defaultPos CM000790.1:1-1000
 
 genome Otolemur_garnettii
+chromAliasBb Otolemur_garnettii/Otolemur_garnettii.chromAlias.bb
 twoBitPath Otolemur_garnettii/Otolemur_garnettii.2bit
 trackDb Otolemur_garnettii/trackDb.txt
 groups groups.txt
@@ -1924,6 +2099,7 @@ scientificName Otolemur_garnettii
 defaultPos GL873520.1:1-1000
 
 genome Ovis_aries
+chromAliasBb Ovis_aries/Ovis_aries.chromAlias.bb
 twoBitPath Ovis_aries/Ovis_aries.2bit
 trackDb Ovis_aries/trackDb.txt
 groups groups.txt
@@ -1935,6 +2111,7 @@ scientificName Ovis_aries
 defaultPos CM001582.2:1-1000
 
 genome Ovis_canadensis
+chromAliasBb Ovis_canadensis/Ovis_canadensis.chromAlias.bb
 twoBitPath Ovis_canadensis/Ovis_canadensis.2bit
 trackDb Ovis_canadensis/trackDb.txt
 groups groups.txt
@@ -1946,6 +2123,7 @@ scientificName Ovis_canadensis
 defaultPos OviCan_scaffold_0:1-1000
 
 genome Pan_paniscus
+chromAliasBb Pan_paniscus/Pan_paniscus.chromAlias.bb
 twoBitPath Pan_paniscus/Pan_paniscus.2bit
 trackDb Pan_paniscus/trackDb.txt
 groups groups.txt
@@ -1957,6 +2135,7 @@ scientificName Pan_paniscus
 defaultPos CM003385.1:1-1000
 
 genome Pan_troglodytes
+chromAliasBb Pan_troglodytes/Pan_troglodytes.chromAlias.bb
 twoBitPath Pan_troglodytes/Pan_troglodytes.2bit
 trackDb Pan_troglodytes/trackDb.txt
 groups groups.txt
@@ -1968,6 +2147,7 @@ scientificName Pan_troglodytes
 defaultPos CM009238.2:1-1000
 
 genome Panthera_onca
+chromAliasBb Panthera_onca/Panthera_onca.chromAlias.bb
 twoBitPath Panthera_onca/Panthera_onca.2bit
 trackDb Panthera_onca/trackDb.txt
 groups groups.txt
@@ -1979,6 +2159,7 @@ scientificName Panthera_onca
 defaultPos PanOnc_flattened_line_0:1-1000
 
 genome Panthera_pardus
+chromAliasBb Panthera_pardus/Panthera_pardus.chromAlias.bb
 twoBitPath Panthera_pardus/Panthera_pardus.2bit
 trackDb Panthera_pardus/trackDb.txt
 groups groups.txt
@@ -1990,6 +2171,7 @@ scientificName Panthera_pardus
 defaultPos KV860272.1:1-1000
 
 genome Panthera_tigris
+chromAliasBb Panthera_tigris/Panthera_tigris.chromAlias.bb
 twoBitPath Panthera_tigris/Panthera_tigris.2bit
 trackDb Panthera_tigris/trackDb.txt
 groups groups.txt
@@ -2001,6 +2183,7 @@ scientificName Panthera_tigris
 defaultPos KE722155.1:1-1000
 
 genome Pantholops_hodgsonii
+chromAliasBb Pantholops_hodgsonii/Pantholops_hodgsonii.chromAlias.bb
 twoBitPath Pantholops_hodgsonii/Pantholops_hodgsonii.2bit
 trackDb Pantholops_hodgsonii/trackDb.txt
 groups groups.txt
@@ -2012,6 +2195,7 @@ scientificName Pantholops_hodgsonii
 defaultPos KE113671.1:1-1000
 
 genome Papio_anubis
+chromAliasBb Papio_anubis/Papio_anubis.chromAlias.bb
 twoBitPath Papio_anubis/Papio_anubis.2bit
 trackDb Papio_anubis/trackDb.txt
 groups groups.txt
@@ -2023,6 +2207,7 @@ scientificName Papio_anubis
 defaultPos CM001491.2:1-1000
 
 genome Paradoxurus_hermaphroditus
+chromAliasBb Paradoxurus_hermaphroditus/Paradoxurus_hermaphroditus.chromAlias.bb
 twoBitPath Paradoxurus_hermaphroditus/Paradoxurus_hermaphroditus.2bit
 trackDb Paradoxurus_hermaphroditus/trackDb.txt
 groups groups.txt
@@ -2034,6 +2219,7 @@ scientificName Paradoxurus_hermaphroditus
 defaultPos ParHer_flattened_line_0:1-1000
 
 genome Perognathus_longimembris
+chromAliasBb Perognathus_longimembris/Perognathus_longimembris.chromAlias.bb
 twoBitPath Perognathus_longimembris/Perognathus_longimembris.2bit
 trackDb Perognathus_longimembris/trackDb.txt
 groups groups.txt
@@ -2045,6 +2231,7 @@ scientificName Perognathus_longimembris
 defaultPos PerPac_flattened_line_0:1-1000
 
 genome Peromyscus_maniculatus
+chromAliasBb Peromyscus_maniculatus/Peromyscus_maniculatus.chromAlias.bb
 twoBitPath Peromyscus_maniculatus/Peromyscus_maniculatus.2bit
 trackDb Peromyscus_maniculatus/trackDb.txt
 groups groups.txt
@@ -2056,6 +2243,7 @@ scientificName Peromyscus_maniculatus
 defaultPos KI615321.1:1-1000
 
 genome Petromus_typicus
+chromAliasBb Petromus_typicus/Petromus_typicus.chromAlias.bb
 twoBitPath Petromus_typicus/Petromus_typicus.2bit
 trackDb Petromus_typicus/trackDb.txt
 groups groups.txt
@@ -2067,6 +2255,7 @@ scientificName Petromus_typicus
 defaultPos PetTyp_scaffold_0:1-1000
 
 genome Phocoena_phocoena
+chromAliasBb Phocoena_phocoena/Phocoena_phocoena.chromAlias.bb
 twoBitPath Phocoena_phocoena/Phocoena_phocoena.2bit
 trackDb Phocoena_phocoena/trackDb.txt
 groups groups.txt
@@ -2078,6 +2267,7 @@ scientificName Phocoena_phocoena
 defaultPos PhoPho_flattened_line_0:1-1000
 
 genome Piliocolobus_tephrosceles
+chromAliasBb Piliocolobus_tephrosceles/Piliocolobus_tephrosceles.chromAlias.bb
 twoBitPath Piliocolobus_tephrosceles/Piliocolobus_tephrosceles.2bit
 trackDb Piliocolobus_tephrosceles/trackDb.txt
 groups groups.txt
@@ -2089,6 +2279,7 @@ scientificName Piliocolobus_tephrosceles
 defaultPos PDMG01000257.1:1-1000
 
 genome Pipistrellus_pipistrellus
+chromAliasBb Pipistrellus_pipistrellus/Pipistrellus_pipistrellus.chromAlias.bb
 twoBitPath Pipistrellus_pipistrellus/Pipistrellus_pipistrellus.2bit
 trackDb Pipistrellus_pipistrellus/trackDb.txt
 groups groups.txt
@@ -2100,6 +2291,7 @@ scientificName Pipistrellus_pipistrellus
 defaultPos PipPip_scaffold_0:1-1000
 
 genome Pithecia_pithecia
+chromAliasBb Pithecia_pithecia/Pithecia_pithecia.chromAlias.bb
 twoBitPath Pithecia_pithecia/Pithecia_pithecia.2bit
 trackDb Pithecia_pithecia/trackDb.txt
 groups groups.txt
@@ -2111,6 +2303,7 @@ scientificName Pithecia_pithecia
 defaultPos PitPit_scaffold_0:1-1000
 
 genome Platanista_gangetica
+chromAliasBb Platanista_gangetica/Platanista_gangetica.chromAlias.bb
 twoBitPath Platanista_gangetica/Platanista_gangetica.2bit
 trackDb Platanista_gangetica/trackDb.txt
 groups groups.txt
@@ -2122,6 +2315,7 @@ scientificName Platanista_gangetica
 defaultPos PlaMin_flattened_line_0:1-1000
 
 genome Pongo_abelii
+chromAliasBb Pongo_abelii/Pongo_abelii.chromAlias.bb
 twoBitPath Pongo_abelii/Pongo_abelii.2bit
 trackDb Pongo_abelii/trackDb.txt
 groups groups.txt
@@ -2133,6 +2327,7 @@ scientificName Pongo_abelii
 defaultPos CM009262.2:1-1000
 
 genome Procavia_capensis
+chromAliasBb Procavia_capensis/Procavia_capensis.chromAlias.bb
 twoBitPath Procavia_capensis/Procavia_capensis.2bit
 trackDb Procavia_capensis/trackDb.txt
 groups groups.txt
@@ -2144,6 +2339,7 @@ scientificName Procavia_capensis
 defaultPos ProCapCap_scaffold_0:1-1000
 
 genome Propithecus_coquereli
+chromAliasBb Propithecus_coquereli/Propithecus_coquereli.chromAlias.bb
 twoBitPath Propithecus_coquereli/Propithecus_coquereli.2bit
 trackDb Propithecus_coquereli/trackDb.txt
 groups groups.txt
@@ -2155,6 +2351,7 @@ scientificName Propithecus_coquereli
 defaultPos KQ012994.1:1-1000
 
 genome Psammomys_obesus
+chromAliasBb Psammomys_obesus/Psammomys_obesus.chromAlias.bb
 twoBitPath Psammomys_obesus/Psammomys_obesus.2bit
 trackDb Psammomys_obesus/trackDb.txt
 groups groups.txt
@@ -2166,6 +2363,7 @@ scientificName Psammomys_obesus
 defaultPos NESX01033892.1:1-1000
 
 genome Pteronotus_parnellii
+chromAliasBb Pteronotus_parnellii/Pteronotus_parnellii.chromAlias.bb
 twoBitPath Pteronotus_parnellii/Pteronotus_parnellii.2bit
 trackDb Pteronotus_parnellii/trackDb.txt
 groups groups.txt
@@ -2177,6 +2375,7 @@ scientificName Pteronotus_parnellii
 defaultPos KE856091.1:1-1000
 
 genome Pteronura_brasiliensis
+chromAliasBb Pteronura_brasiliensis/Pteronura_brasiliensis.chromAlias.bb
 twoBitPath Pteronura_brasiliensis/Pteronura_brasiliensis.2bit
 trackDb Pteronura_brasiliensis/trackDb.txt
 groups groups.txt
@@ -2188,6 +2387,7 @@ scientificName Pteronura_brasiliensis
 defaultPos PteBra_flattened_line_0:1-1000
 
 genome Pteropus_alecto
+chromAliasBb Pteropus_alecto/Pteropus_alecto.chromAlias.bb
 twoBitPath Pteropus_alecto/Pteropus_alecto.2bit
 trackDb Pteropus_alecto/trackDb.txt
 groups groups.txt
@@ -2199,6 +2399,7 @@ scientificName Pteropus_alecto
 defaultPos KB031068.1:1-1000
 
 genome Pteropus_vampyrus
+chromAliasBb Pteropus_vampyrus/Pteropus_vampyrus.chromAlias.bb
 twoBitPath Pteropus_vampyrus/Pteropus_vampyrus.2bit
 trackDb Pteropus_vampyrus/trackDb.txt
 groups groups.txt
@@ -2210,6 +2411,7 @@ scientificName Pteropus_vampyrus
 defaultPos KN525718.1:1-1000
 
 genome Puma_concolor
+chromAliasBb Puma_concolor/Puma_concolor.chromAlias.bb
 twoBitPath Puma_concolor/Puma_concolor.2bit
 trackDb Puma_concolor/trackDb.txt
 groups groups.txt
@@ -2221,6 +2423,7 @@ scientificName Puma_concolor
 defaultPos QAVW01000423.1:1-1000
 
 genome Pygathrix_nemaeus
+chromAliasBb Pygathrix_nemaeus/Pygathrix_nemaeus.chromAlias.bb
 twoBitPath Pygathrix_nemaeus/Pygathrix_nemaeus.2bit
 trackDb Pygathrix_nemaeus/trackDb.txt
 groups groups.txt
@@ -2232,6 +2435,7 @@ scientificName Pygathrix_nemaeus
 defaultPos PygNem_scaffold_0:1-1000
 
 genome Rangifer_tarandus
+chromAliasBb Rangifer_tarandus/Rangifer_tarandus.chromAlias.bb
 twoBitPath Rangifer_tarandus/Rangifer_tarandus.2bit
 trackDb Rangifer_tarandus/trackDb.txt
 groups groups.txt
@@ -2243,6 +2447,7 @@ scientificName Rangifer_tarandus
 defaultPos RanTarSib_scaffold_0:1-1000
 
 genome Rattus_norvegicus
+chromAliasBb Rattus_norvegicus/Rattus_norvegicus.chromAlias.bb
 twoBitPath Rattus_norvegicus/Rattus_norvegicus.2bit
 trackDb Rattus_norvegicus/trackDb.txt
 groups groups.txt
@@ -2254,6 +2459,7 @@ scientificName Rattus_norvegicus
 defaultPos chr1:79348972-79379997
 
 genome Rhinolophus_sinicus
+chromAliasBb Rhinolophus_sinicus/Rhinolophus_sinicus.chromAlias.bb
 twoBitPath Rhinolophus_sinicus/Rhinolophus_sinicus.2bit
 trackDb Rhinolophus_sinicus/trackDb.txt
 groups groups.txt
@@ -2265,6 +2471,7 @@ scientificName Rhinolophus_sinicus
 defaultPos LVEH01000038.1:1-1000
 
 genome Rhinopithecus_bieti
+chromAliasBb Rhinopithecus_bieti/Rhinopithecus_bieti.chromAlias.bb
 twoBitPath Rhinopithecus_bieti/Rhinopithecus_bieti.2bit
 trackDb Rhinopithecus_bieti/trackDb.txt
 groups groups.txt
@@ -2276,6 +2483,7 @@ scientificName Rhinopithecus_bieti
 defaultPos MCGX01003819.1:1-1000
 
 genome Rhinopithecus_roxellana
+chromAliasBb Rhinopithecus_roxellana/Rhinopithecus_roxellana.chromAlias.bb
 twoBitPath Rhinopithecus_roxellana/Rhinopithecus_roxellana.2bit
 trackDb Rhinopithecus_roxellana/trackDb.txt
 groups groups.txt
@@ -2287,6 +2495,7 @@ scientificName Rhinopithecus_roxellana
 defaultPos KN296311.1:1-1000
 
 genome Rousettus_aegyptiacus
+chromAliasBb Rousettus_aegyptiacus/Rousettus_aegyptiacus.chromAlias.bb
 twoBitPath Rousettus_aegyptiacus/Rousettus_aegyptiacus.2bit
 trackDb Rousettus_aegyptiacus/trackDb.txt
 groups groups.txt
@@ -2298,6 +2507,7 @@ scientificName Rousettus_aegyptiacus
 defaultPos RouAeg_scaffold_0:1-1000
 
 genome Saguinus_imperator
+chromAliasBb Saguinus_imperator/Saguinus_imperator.chromAlias.bb
 twoBitPath Saguinus_imperator/Saguinus_imperator.2bit
 trackDb Saguinus_imperator/trackDb.txt
 groups groups.txt
@@ -2309,6 +2519,7 @@ scientificName Saguinus_imperator
 defaultPos SagImp_scaffold_0:1-1000
 
 genome Saiga_tatarica
+chromAliasBb Saiga_tatarica/Saiga_tatarica.chromAlias.bb
 twoBitPath Saiga_tatarica/Saiga_tatarica.2bit
 trackDb Saiga_tatarica/trackDb.txt
 groups groups.txt
@@ -2320,6 +2531,7 @@ scientificName Saiga_tatarica
 defaultPos SaiTat_scaffold_0:1-1000
 
 genome Saimiri_boliviensis
+chromAliasBb Saimiri_boliviensis/Saimiri_boliviensis.chromAlias.bb
 twoBitPath Saimiri_boliviensis/Saimiri_boliviensis.2bit
 trackDb Saimiri_boliviensis/trackDb.txt
 groups groups.txt
@@ -2331,6 +2543,7 @@ scientificName Saimiri_boliviensis
 defaultPos JH378105.1:1-1000
 
 genome Scalopus_aquaticus
+chromAliasBb Scalopus_aquaticus/Scalopus_aquaticus.chromAlias.bb
 twoBitPath Scalopus_aquaticus/Scalopus_aquaticus.2bit
 trackDb Scalopus_aquaticus/trackDb.txt
 groups groups.txt
@@ -2342,6 +2555,7 @@ scientificName Scalopus_aquaticus
 defaultPos ScaAqu_scaffold_0:1-1000
 
 genome Semnopithecus_entellus
+chromAliasBb Semnopithecus_entellus/Semnopithecus_entellus.chromAlias.bb
 twoBitPath Semnopithecus_entellus/Semnopithecus_entellus.2bit
 trackDb Semnopithecus_entellus/trackDb.txt
 groups groups.txt
@@ -2353,6 +2567,7 @@ scientificName Semnopithecus_entellus
 defaultPos SemEnt_scaffold_0:1-1000
 
 genome Sigmodon_hispidus
+chromAliasBb Sigmodon_hispidus/Sigmodon_hispidus.chromAlias.bb
 twoBitPath Sigmodon_hispidus/Sigmodon_hispidus.2bit
 trackDb Sigmodon_hispidus/trackDb.txt
 groups groups.txt
@@ -2364,6 +2579,7 @@ scientificName Sigmodon_hispidus
 defaultPos SigHis_scaffold_0:1-1000
 
 genome Solenodon_paradoxus
+chromAliasBb Solenodon_paradoxus/Solenodon_paradoxus.chromAlias.bb
 twoBitPath Solenodon_paradoxus/Solenodon_paradoxus.2bit
 trackDb Solenodon_paradoxus/trackDb.txt
 groups groups.txt
@@ -2375,6 +2591,7 @@ scientificName Solenodon_paradoxus
 defaultPos SolPar_flattened_line_0:1-1000
 
 genome Sorex_araneus
+chromAliasBb Sorex_araneus/Sorex_araneus.chromAlias.bb
 twoBitPath Sorex_araneus/Sorex_araneus.2bit
 trackDb Sorex_araneus/trackDb.txt
 groups groups.txt
@@ -2386,6 +2603,7 @@ scientificName Sorex_araneus
 defaultPos JH798146.1:1-1000
 
 genome Spermophilus_dauricus
+chromAliasBb Spermophilus_dauricus/Spermophilus_dauricus.chromAlias.bb
 twoBitPath Spermophilus_dauricus/Spermophilus_dauricus.2bit
 trackDb Spermophilus_dauricus/trackDb.txt
 groups groups.txt
@@ -2397,6 +2615,7 @@ scientificName Spermophilus_dauricus
 defaultPos KZ293964.1:1-1000
 
 genome Spilogale_gracilis
+chromAliasBb Spilogale_gracilis/Spilogale_gracilis.chromAlias.bb
 twoBitPath Spilogale_gracilis/Spilogale_gracilis.2bit
 trackDb Spilogale_gracilis/trackDb.txt
 groups groups.txt
@@ -2408,6 +2627,7 @@ scientificName Spilogale_gracilis
 defaultPos SpiGra_flattened_line_0:1-1000
 
 genome Suricata_suricatta
+chromAliasBb Suricata_suricatta/Suricata_suricatta.chromAlias.bb
 twoBitPath Suricata_suricatta/Suricata_suricatta.2bit
 trackDb Suricata_suricatta/trackDb.txt
 groups groups.txt
@@ -2419,6 +2639,7 @@ scientificName Suricata_suricatta
 defaultPos SurSur_flattened_line_0:1-1000
 
 genome Sus_scrofa
+chromAliasBb Sus_scrofa/Sus_scrofa.chromAlias.bb
 twoBitPath Sus_scrofa/Sus_scrofa.2bit
 trackDb Sus_scrofa/trackDb.txt
 groups groups.txt
@@ -2430,6 +2651,7 @@ scientificName Sus_scrofa
 defaultPos CM000812.4:1-1000
 
 genome Tadarida_brasiliensis
+chromAliasBb Tadarida_brasiliensis/Tadarida_brasiliensis.chromAlias.bb
 twoBitPath Tadarida_brasiliensis/Tadarida_brasiliensis.2bit
 trackDb Tadarida_brasiliensis/trackDb.txt
 groups groups.txt
@@ -2441,6 +2663,7 @@ scientificName Tadarida_brasiliensis
 defaultPos TadBra_scaffold_0:1-1000
 
 genome Tamandua_tetradactyla
+chromAliasBb Tamandua_tetradactyla/Tamandua_tetradactyla.chromAlias.bb
 twoBitPath Tamandua_tetradactyla/Tamandua_tetradactyla.2bit
 trackDb Tamandua_tetradactyla/trackDb.txt
 groups groups.txt
@@ -2452,6 +2675,7 @@ scientificName Tamandua_tetradactyla
 defaultPos TamTet_scaffold_0:1-1000
 
 genome Tapirus_indicus
+chromAliasBb Tapirus_indicus/Tapirus_indicus.chromAlias.bb
 twoBitPath Tapirus_indicus/Tapirus_indicus.2bit
 trackDb Tapirus_indicus/trackDb.txt
 groups groups.txt
@@ -2463,6 +2687,7 @@ scientificName Tapirus_indicus
 defaultPos TapInd_scaffold_2:1-1000
 
 genome Tapirus_terrestris
+chromAliasBb Tapirus_terrestris/Tapirus_terrestris.chromAlias.bb
 twoBitPath Tapirus_terrestris/Tapirus_terrestris.2bit
 trackDb Tapirus_terrestris/trackDb.txt
 groups groups.txt
@@ -2474,6 +2699,7 @@ scientificName Tapirus_terrestris
 defaultPos TapTer_scaffold_0:1-1000
 
 genome Thryonomys_swinderianus
+chromAliasBb Thryonomys_swinderianus/Thryonomys_swinderianus.chromAlias.bb
 twoBitPath Thryonomys_swinderianus/Thryonomys_swinderianus.2bit
 trackDb Thryonomys_swinderianus/trackDb.txt
 groups groups.txt
@@ -2485,6 +2711,7 @@ scientificName Thryonomys_swinderianus
 defaultPos ThrSwi_scaffold_0:1-1000
 
 genome Tolypeutes_matacus
+chromAliasBb Tolypeutes_matacus/Tolypeutes_matacus.chromAlias.bb
 twoBitPath Tolypeutes_matacus/Tolypeutes_matacus.2bit
 trackDb Tolypeutes_matacus/trackDb.txt
 groups groups.txt
@@ -2496,6 +2723,7 @@ scientificName Tolypeutes_matacus
 defaultPos TolMat_scaffold_0:1-1000
 
 genome Tonatia_saurophila
+chromAliasBb Tonatia_saurophila/Tonatia_saurophila.chromAlias.bb
 twoBitPath Tonatia_saurophila/Tonatia_saurophila.2bit
 trackDb Tonatia_saurophila/trackDb.txt
 groups groups.txt
@@ -2507,6 +2735,7 @@ scientificName Tonatia_saurophila
 defaultPos TonSau_scaffold_0:1-1000
 
 genome Tragulus_javanicus
+chromAliasBb Tragulus_javanicus/Tragulus_javanicus.chromAlias.bb
 twoBitPath Tragulus_javanicus/Tragulus_javanicus.2bit
 trackDb Tragulus_javanicus/trackDb.txt
 groups groups.txt
@@ -2518,6 +2747,7 @@ scientificName Tragulus_javanicus
 defaultPos TraJav_scaffold_0:1-1000
 
 genome Trichechus_manatus
+chromAliasBb Trichechus_manatus/Trichechus_manatus.chromAlias.bb
 twoBitPath Trichechus_manatus/Trichechus_manatus.2bit
 trackDb Trichechus_manatus/trackDb.txt
 groups groups.txt
@@ -2529,6 +2759,7 @@ scientificName Trichechus_manatus
 defaultPos JH594607.1:1-1000
 
 genome Tupaia_chinensis
+chromAliasBb Tupaia_chinensis/Tupaia_chinensis.chromAlias.bb
 twoBitPath Tupaia_chinensis/Tupaia_chinensis.2bit
 trackDb Tupaia_chinensis/trackDb.txt
 groups groups.txt
@@ -2540,6 +2771,7 @@ scientificName Tupaia_chinensis
 defaultPos KB320563.1:1-1000
 
 genome Tupaia_tana
+chromAliasBb Tupaia_tana/Tupaia_tana.chromAlias.bb
 twoBitPath Tupaia_tana/Tupaia_tana.2bit
 trackDb Tupaia_tana/trackDb.txt
 groups groups.txt
@@ -2551,6 +2783,7 @@ scientificName Tupaia_tana
 defaultPos TupTan_flattened_line_0:1-1000
 
 genome Tursiops_truncatus
+chromAliasBb Tursiops_truncatus/Tursiops_truncatus.chromAlias.bb
 twoBitPath Tursiops_truncatus/Tursiops_truncatus.2bit
 trackDb Tursiops_truncatus/trackDb.txt
 groups groups.txt
@@ -2562,6 +2795,7 @@ scientificName Tursiops_truncatus
 defaultPos MRVK01001658.1:1-1000
 
 genome Uropsilus_gracilis
+chromAliasBb Uropsilus_gracilis/Uropsilus_gracilis.chromAlias.bb
 twoBitPath Uropsilus_gracilis/Uropsilus_gracilis.2bit
 trackDb Uropsilus_gracilis/trackDb.txt
 groups groups.txt
@@ -2573,6 +2807,7 @@ scientificName Uropsilus_gracilis
 defaultPos UroGra_scaffold_0:1-1000
 
 genome Ursus_maritimus
+chromAliasBb Ursus_maritimus/Ursus_maritimus.chromAlias.bb
 twoBitPath Ursus_maritimus/Ursus_maritimus.2bit
 trackDb Ursus_maritimus/trackDb.txt
 groups groups.txt
@@ -2584,6 +2819,7 @@ scientificName Ursus_maritimus
 defaultPos KK498653.1:1-1000
 
 genome Vicugna_pacos
+chromAliasBb Vicugna_pacos/Vicugna_pacos.chromAlias.bb
 twoBitPath Vicugna_pacos/Vicugna_pacos.2bit
 trackDb Vicugna_pacos/trackDb.txt
 groups groups.txt
@@ -2595,6 +2831,7 @@ scientificName Vicugna_pacos
 defaultPos KN268387.1:1-1000
 
 genome Vulpes_lagopus
+chromAliasBb Vulpes_lagopus/Vulpes_lagopus.chromAlias.bb
 twoBitPath Vulpes_lagopus/Vulpes_lagopus.2bit
 trackDb Vulpes_lagopus/trackDb.txt
 groups groups.txt
@@ -2606,6 +2843,7 @@ scientificName Vulpes_lagopus
 defaultPos VulLag_flattened_line_0:1-1000
 
 genome Xerus_inauris
+chromAliasBb Xerus_inauris/Xerus_inauris.chromAlias.bb
 twoBitPath Xerus_inauris/Xerus_inauris.2bit
 trackDb Xerus_inauris/trackDb.txt
 groups groups.txt
@@ -2617,6 +2855,7 @@ scientificName Xerus_inauris
 defaultPos XerIna_scaffold_0:1-1000
 
 genome Zalophus_californianus
+chromAliasBb Zalophus_californianus/Zalophus_californianus.chromAlias.bb
 twoBitPath Zalophus_californianus/Zalophus_californianus.2bit
 trackDb Zalophus_californianus/trackDb.txt
 groups groups.txt
@@ -2628,6 +2867,7 @@ scientificName Zalophus_californianus
 defaultPos ZalCal_flattened_line_0:1-1000
 
 genome Zapus_hudsonius
+chromAliasBb Zapus_hudsonius/Zapus_hudsonius.chromAlias.bb
 twoBitPath Zapus_hudsonius/Zapus_hudsonius.2bit
 trackDb Zapus_hudsonius/trackDb.txt
 groups groups.txt
@@ -2639,6 +2879,7 @@ scientificName Zapus_hudsonius
 defaultPos ZapHud_scaffold_0:1-1000
 
 genome Ziphius_cavirostris
+chromAliasBb Ziphius_cavirostris/Ziphius_cavirostris.chromAlias.bb
 twoBitPath Ziphius_cavirostris/Ziphius_cavirostris.2bit
 trackDb Ziphius_cavirostris/trackDb.txt
 groups groups.txt

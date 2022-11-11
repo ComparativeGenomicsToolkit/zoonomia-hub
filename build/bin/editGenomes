@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 import sys
 import os.path as osp
-from pycbio.tsv import TsvReader
 from pycbio.sys import fileOps
-import re
 from zooCommon import loadZooEquiv, getZooGenArkAcc, GenomeMissingError
 
+
+###
+# these were for change to link to genark
+###
 def editGenomeLine(zooToGenArk, line):
     key, genome = line.split()
     return "genome " + getZooGenArkAcc(zooToGenArk, genome)
 
-def processLine(zooToGenArk, line):
+def processLineToGenArk(zooToGenArk, line):
     if line.startswith("genome "):
         return editGenomeLine(zooToGenArk, line)
     elif line.startswith("twoBitPath"):
@@ -18,11 +20,11 @@ def processLine(zooToGenArk, line):
     else:
         return line
 
-def editGenomes(zooToGenArk, inGenomes, outFh):
+def doLinkToGenark(zooToGenArk, inGenomes, outFh):
     errCnt = 0
     for line in fileOps.iterLines(inGenomes):
         try:
-            line = processLine(zooToGenArk, line)
+            line = processLineToGenArk(zooToGenArk, line)
             print(line, file=outFh)
         except GenomeMissingError as ex:
             print("Failed: ", ex, file=sys.stderr)
@@ -30,9 +32,37 @@ def editGenomes(zooToGenArk, inGenomes, outFh):
     if errCnt > 0:
         exit("failed genomes")
 
-def main():
+def editGenomesLinkToGenark():
     zooToGenArk = loadZooEquiv()
-    with open("genomes.txt", 'w') as outFh:
-        editGenomes(zooToGenArk, "asm-hub.genomes.txt", outFh)
+    with open("new.genomes.txt", 'w') as outFh:
+        doLinkToGenark(zooToGenArk, "genomes.txt", outFh)
 
+###
+# these are for adding chromAlias lines
+###
+def maybeAddChromAlias(line, outFh):
+    key, genome = line.split()
+    chromAliasBb = osp.join(genome, genome + ".chromAlias.bb")
+    if osp.exists(chromAliasBb):
+        print("chromAliasBb", chromAliasBb, file=outFh)
+    else:
+        print("no chromAliasBb for ", genome, file=sys.stderr)
+
+
+def processLineAddAlias(line, outFh):
+    print(line, file=outFh)
+    if line.startswith("genome "):
+        maybeAddChromAlias(line, outFh)
+
+def doEditGenomesChromAlias(inGenomes, outFh):
+    for line in fileOps.iterLines(inGenomes):
+        processLineAddAlias(line, outFh)
+
+def editGenomesChromAlias():
+    with open("new.genomes.txt", 'w') as outFh:
+        doEditGenomesChromAlias("genomes.txt", outFh)
+
+
+def main():
+    editGenomesChromAlias()
 main()
