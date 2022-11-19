@@ -1,6 +1,7 @@
 track phyloPPrimates
 shortLabel Primate Basewise Cons
 longLabel PhyloP Basewise Conservation of Zoonomia Primates
+group zoonomia
 configurable on
 type bigWig 0 1
 bigDataUrl http://cgl.gi.ucsc.edu/data/cactus/zoonomia-2021-track-hub/hg38/phyloPPrimates.bigWig

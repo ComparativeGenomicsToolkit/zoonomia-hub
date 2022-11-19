@@ -1,7 +1,7 @@
 track zoonomiaConstrainedRegions
 compositeTrack on
 type bigBed 3
-group 200m
+group zoonomia
 visibility hide
 shortLabel Constrained regions
 longLabel Zoonomia constrained regions
@@ -13,7 +13,7 @@ html zoonomiaConstrainedRegions.html
     shortLabel Zoonomia UCEs
     longLabel Zoonomia ultraconserved elements (UCEs)
     type bigBed 3
-    group 200m
+    group zoonomia
     color 128,0,58
     priority 100.1
     visibility hide
@@ -26,7 +26,7 @@ html zoonomiaConstrainedRegions.html
     longLabel Zoonomia runs of contiguous constraint (RoCCs)
     type bigBed 3
     color 128,58,0
-    group 200m
+    group zoonomia
     priority 100.2
     visibility hide
     bigDataUrl http://cgl.gi.ucsc.edu/data/cactus/zoonomia-2021-track-hub/hg38/RoCCs.bigBed
@@ -38,7 +38,7 @@ html zoonomiaConstrainedRegions.html
     longLabel Zoonomia unannotated Intergenic Constrained Regions (UNICORNs)
     type bigBed 3
     color 58,128,0
-    group 200m
+    group zoonomia
     priority 100.3
     visibility hide
     bigDataUrl http://cgl.gi.ucsc.edu/data/cactus/zoonomia-2021-track-hub/hg38/UNICORNs.bigBed
