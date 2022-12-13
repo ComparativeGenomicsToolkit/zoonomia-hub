@@ -13,7 +13,7 @@ speciesOrder Pan_paniscus Pan_troglodytes Gorilla_gorilla Pongo_abelii Nomascus_
 
 track 363_conservation_new
 superTrack on
-group 200M
+group zoonomia
 longLabel 242-way Conservation (bad primate clade)
 shortLabel 242-way Conservation (bad primate clade)
 priority 201
@@ -50,7 +50,7 @@ html ../documentation/200mConservationTrackDescription
 
 track 100_conservation_new
 superTrack on
-group 200M
+group zoonomia
 longLabel 100-way Conservation
 shortLabel 100-way Conservation
 html ../documentation/200mConservationTrackDescription
@@ -92,6 +92,7 @@ group genes
 bigDataUrl gencode.bb
 priority 1
 visibility pack
+group genes
 html ../documentation/gencodeV30.html
 
 
@@ -2783,4 +2784,5 @@ include zoonomiaConstrainedRegions.trackDb.txt
 
 
 include TACITOpenChromatin.trackDb.txt
+include phyloPPrimates.trackDb.txt
 include ../trackDb/corces2020/caudate_native_super.trackDb.txt
