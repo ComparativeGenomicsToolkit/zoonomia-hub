@@ -10,21 +10,26 @@ defaultIsClosed 0
 
 name zoonomia
 label Zoonomia
-priority 2.5
-defaultIsClosed 0
-
-name comphub
-label my hub
 priority 3
 defaultIsClosed 0
 
-name snake
-label Alignment Snakes
-priority 3
+name genes
+label Genes and Gene Predictions
+priority 4
+defaultIsClosed 0
+
+name regulation
+label Expression and Regulation
+priority 5
+defaultIsClosed 0
+
+name compGeno
+label Comparative Genomics
+priority 5
 defaultIsClosed 0
 
 name exp
 label Experimental
-priority 4
+priority 6
 defaultIsClosed 1
 

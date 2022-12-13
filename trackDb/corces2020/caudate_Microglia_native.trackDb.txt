@@ -1,6 +1,7 @@
-track corces2020_caudate_Microglia
+track corces2020_caudate_Microglia_native
+parent corces2020_caudate_native_super
 type bigNarrowPeak
-visibility full
+visibility hide
 signalFilter 0
 signalFilterLimits 0:10000
 pValueFilter 0
@@ -9,6 +10,7 @@ qValueFilter 0
 qValueFilterLimits 0:10000
 shortLabel HS Microglia
 longLabel Homo Sapiens Caudate Microglia
+group regulation
 bigDataUrl corces2020_caudate.Microglia.narrowPeak.bb
-html ../documentation/corces2020/caudate_Microglia.html
+html ../documentation/corces2020/caudate_Microglia_native.html
 

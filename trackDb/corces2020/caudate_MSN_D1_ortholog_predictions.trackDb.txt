@@ -1,10 +1,12 @@
 track corces2020_caudate_MSN_D1_ortholog_predictions
+parent corces2020_caudate_ortholog_predictions_super
 type bigNarrowPeak
 visibility hide
 signalFilter 0
 signalFilterLimits 0:1
 shortLabel HS MSN_D1 ortho pred
 longLabel Homo Sapiens Caudate MSN_D1 Ortholog Predictions
+group regulation
 bigDataUrl corces2020_caudate.MSN_D1.scaledPredictions.narrowPeak.bb
 html ../documentation/corces2020/caudate_MSN_D1_ortholog_predictions.html
 

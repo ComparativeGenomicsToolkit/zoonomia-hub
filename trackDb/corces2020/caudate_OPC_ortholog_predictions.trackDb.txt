@@ -1,10 +1,12 @@
 track corces2020_caudate_OPC_ortholog_predictions
+parent corces2020_caudate_ortholog_predictions_super
 type bigNarrowPeak
 visibility hide
 signalFilter 0
 signalFilterLimits 0:1
 shortLabel HS OPC ortho pred
 longLabel Homo Sapiens Caudate OPC Ortholog Predictions
+group regulation
 bigDataUrl corces2020_caudate.OPC.scaledPredictions.narrowPeak.bb
 html ../documentation/corces2020/caudate_OPC_ortholog_predictions.html
 

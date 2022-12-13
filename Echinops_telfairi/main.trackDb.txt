@@ -2681,11 +2681,4 @@ defaultLabelFields name2
 labelSeperator " "
 
 
-include ../trackDb/corces2020/caudate_Astro_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_INT_Pvalb_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_MSN_D1_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_MSN_D2_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_MSN_SN_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_Microglia_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_OPC_ortholog_predictions.trackDb.txt
-include ../trackDb/corces2020/caudate_Oligo_ortholog_predictions.trackDb.txt
+include ../trackDb/corces2020/caudate_ortholog_predictions_super.trackDb.txt

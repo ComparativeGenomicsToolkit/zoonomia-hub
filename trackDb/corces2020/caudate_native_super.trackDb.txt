@@ -1,0 +1,17 @@
+track corces2020_caudate_native_super
+superTrack on hide
+shortLabel HS Caudates
+longLabel Homo Sapiens Caudates
+type bigNarrowPeak
+group zoonomia
+html ../documentation/corces2020/caudate_native_super.html
+
+include caudate_Astro_native.trackDb.txt
+include caudate_INT_Pvalb_native.trackDb.txt
+include caudate_MSN_D1_native.trackDb.txt
+include caudate_MSN_D2_native.trackDb.txt
+include caudate_MSN_SN_native.trackDb.txt
+include caudate_Microglia_native.trackDb.txt
+include caudate_OPC_native.trackDb.txt
+include caudate_Oligo_native.trackDb.txt
+

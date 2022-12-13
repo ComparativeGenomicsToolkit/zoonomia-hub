@@ -1,6 +1,7 @@
-track corces2020_caudate_Astro
+track corces2020_caudate_Astro_native
+parent corces2020_caudate_native_super
 type bigNarrowPeak
-visibility full
+visibility hide
 signalFilter 0
 signalFilterLimits 0:10000
 pValueFilter 0
@@ -9,6 +10,7 @@ qValueFilter 0
 qValueFilterLimits 0:10000
 shortLabel HS Astro
 longLabel Homo Sapiens Caudate Astro
+group regulation
 bigDataUrl corces2020_caudate.Astro.narrowPeak.bb
-html ../documentation/corces2020/caudate_Astro.html
+html ../documentation/corces2020/caudate_Astro_native.html
 

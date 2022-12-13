@@ -6,12 +6,18 @@ type bigNarrowPeak
 group zoonomia
 html ../documentation/corces2020/caudate_native_super.html
 
-include caudate_Astro_ortholog_predictions.trackDb.txt
-include caudate_INT_Pvalb_ortholog_predictions.trackDb.txt
-include caudate_MSN_D1_ortholog_predictions.trackDb.txt
-include caudate_MSN_D2_ortholog_predictions.trackDb.txt
-include caudate_MSN_SN_ortholog_predictions.trackDb.txt
-include caudate_Microglia_ortholog_predictions.trackDb.txt
-include caudate_OPC_ortholog_predictions.trackDb.txt
-include caudate_Oligo_ortholog_predictions.trackDb.txt
+# special case, don't have two files
+#   corces2020_caudate.MSN_D1.scaledPredictions.narrowPeak.bb
+#   corces2020_caudate.MSN_D2.scaledPredictions.narrowPeak.bb
+# so this is copied from ../trackDb/
+
+
+include ../trackDb/corces2020/caudate_Astro_ortholog_predictions.trackDb.txt
+include ../trackDb/corces2020/caudate_INT_Pvalb_ortholog_predictions.trackDb.txt
+#include caudate_MSN_D1_ortholog_predictions.trackDb.txt
+#include caudate_MSN_D2_ortholog_predictions.trackDb.txt
+include ../trackDb/corces2020/caudate_MSN_SN_ortholog_predictions.trackDb.txt
+include ../trackDb/corces2020/caudate_Microglia_ortholog_predictions.trackDb.txt
+include ../trackDb/corces2020/caudate_OPC_ortholog_predictions.trackDb.txt
+include ../trackDb/corces2020/caudate_Oligo_ortholog_predictions.trackDb.txt
 

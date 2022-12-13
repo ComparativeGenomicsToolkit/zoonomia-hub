@@ -1,6 +1,7 @@
-track corces2020_caudate_INT_Pvalb
+track corces2020_caudate_INT_Pvalb_native
+parent corces2020_caudate_native_super
 type bigNarrowPeak
-visibility full
+visibility hide
 signalFilter 0
 signalFilterLimits 0:10000
 pValueFilter 0
@@ -9,6 +10,7 @@ qValueFilter 0
 qValueFilterLimits 0:10000
 shortLabel HS INT_Pvalb
 longLabel Homo Sapiens Caudate INT_Pvalb
+group regulation
 bigDataUrl corces2020_caudate.INT_Pvalb.narrowPeak.bb
-html ../documentation/corces2020/caudate_INT_Pvalb.html
+html ../documentation/corces2020/caudate_INT_Pvalb_native.html
 

@@ -19,6 +19,10 @@ all: ${genomes:%=%/trackDb.txt}
 	build/bin/mergeTrackDb $< $@.tmp
 	mv -f $@.tmp $@
 
+clean:
+	rm -f */trackDb.txt
+
+
 check: ${genomes:%=%_check}
 
 %_check: %/trackDb.txt

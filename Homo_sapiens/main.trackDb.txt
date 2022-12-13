@@ -88,6 +88,7 @@ track gencode
 shortLabel GENCODE Genes
 longLabel GENCODE v30 gene set
 type bigBed 12
+group genes
 bigDataUrl gencode.bb
 priority 1
 visibility pack
@@ -2782,11 +2783,4 @@ include zoonomiaConstrainedRegions.trackDb.txt
 
 
 include TACITOpenChromatin.trackDb.txt
-include ../trackDb/corces2020/caudate_Astro.trackDb.txt
-include ../trackDb/corces2020/caudate_INT_Pvalb.trackDb.txt
-include ../trackDb/corces2020/caudate_MSN_D1.trackDb.txt
-include ../trackDb/corces2020/caudate_MSN_D2.trackDb.txt
-include ../trackDb/corces2020/caudate_MSN_SN.trackDb.txt
-include ../trackDb/corces2020/caudate_Microglia.trackDb.txt
-include ../trackDb/corces2020/caudate_OPC.trackDb.txt
-include ../trackDb/corces2020/caudate_Oligo.trackDb.txt
+include ../trackDb/corces2020/caudate_native_super.trackDb.txt
