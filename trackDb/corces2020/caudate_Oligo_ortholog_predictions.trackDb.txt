@@ -1,0 +1,10 @@
+track corces2020_caudate_Oligo_ortholog_predictions
+type bigNarrowPeak
+visibility hide
+signalFilter 0
+signalFilterLimits 0:1
+shortLabel HS Oligo ortho pred
+longLabel Homo Sapiens Caudate Oligo Ortholog Predictions
+bigDataUrl corces2020_caudate.Oligo.scaledPredictions.narrowPeak.bb
+html ../documentation/corces2020/caudate_Oligo_ortholog_predictions.html
+

@@ -1,0 +1,14 @@
+track corces2020_caudate_MSN_D1
+type bigNarrowPeak
+visibility full
+signalFilter 0
+signalFilterLimits 0:10000
+pValueFilter 0
+pValueFilterLimits 0:10000
+qValueFilter 0
+qValueFilterLimits 0:10000
+shortLabel HS MSN_D1
+longLabel Homo Sapiens Caudate MSN_D1
+bigDataUrl corces2020_caudate.MSN_D1.narrowPeak.bb
+html ../documentation/corces2020/caudate_MSN_D1.html
+

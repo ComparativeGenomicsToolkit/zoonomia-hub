@@ -1,0 +1,14 @@
+track corces2020_caudate_Oligo
+type bigNarrowPeak
+visibility full
+signalFilter 0
+signalFilterLimits 0:10000
+pValueFilter 0
+pValueFilterLimits 0:10000
+qValueFilter 0
+qValueFilterLimits 0:10000
+shortLabel HS Oligo
+longLabel Homo Sapiens Caudate Oligo
+bigDataUrl corces2020_caudate.Oligo.narrowPeak.bb
+html ../documentation/corces2020/caudate_Oligo.html
+
