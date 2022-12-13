@@ -21,3 +21,5 @@ Homo_sapiens/header
 Homo_sapiens/multiz_rerun_split_sampled
 Mus_musculus/phylop/
 __pycache__/
+
+trackDb.txt

@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+import os.path as osp
+import argparse
+
+def parseArgs():
+    usage = """Merge all includes from a trackDb.txt file.  This speeds up
+    remote access to hubs
+    """
+    parser = argparse.ArgumentParser(description=usage)
+    parser.add_argument('inTrackDb')
+    parser.add_argument('outTrackDb')
+    return parser.parse_args()
+
+def processInclude(inTrackDb, line, outFh):
+    inclRelPath = line.split()[1].strip()
+    inclPath = osp.join(osp.dirname(inTrackDb), inclRelPath)
+    mergeTrackDbRecurse(inclPath, outFh)
+    outFh.write("\n")  # ensure stanza closed
+
+def mergeTrackDbRecurse(inTrackDb, outFh):
+    # inTrackDb must be absolute
+    with open(inTrackDb) as inFh:
+        for line in inFh:
+            if line.find("include ") == 0:
+                processInclude(inTrackDb, line, outFh)
+            else:
+                outFh.write(line)
+
+def mergeTrackDb(inTrackDb, outTrackDb):
+    with open(outTrackDb, "w") as outFh:
+        mergeTrackDbRecurse(osp.abspath(inTrackDb), outFh)
+
+def main(args):
+    mergeTrackDb(args.inTrackDb, args.outTrackDb)
+
+main(parseArgs())
