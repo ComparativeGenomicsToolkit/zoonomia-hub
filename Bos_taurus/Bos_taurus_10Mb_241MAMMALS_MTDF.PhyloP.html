@@ -1,0 +1,170 @@
+<h2>Description</h2>
+<p>
+This track shows measurements of evolutionary conservation
+from the <a href="https://zoonomiaproject.org/the-project/">Zoonomia Project</a> 's 241-way
+mammalian species Cactus alignment, referenced to the Bos taurus <a href="https://www.ncbi.nlm.nih.gov/assembly/GCA_000003205.6">Btau_5.0.1 (GCA_000003205.6)</a> assembly.
+</p>
+
+<p>
+The base-wise conservation scores are computed using <em>phyloP</em> from the
+<a href="http://compgen.cshl.edu/phast/" target="_BLANK"> PHAST package</a>, for all species.
+This version was prepared by Michael Dong (Uppsala U) with an improved neutral
+model incorporating better versions of ancestral repeats.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+<p>
+In full and pack display modes, conservation scores are displayed as a
+<em>wiggle track</em> (histogramm) in which the height reflects the
+size of the score.
+The conservation wiggles can be configured in a variety of ways to
+highlight different aspects of the displayed information.
+Click the <a href="../goldenPath/help/hgWiggleTrackHelp.html"
+target=_blank>Graph configuration help</a> link for an explanation
+of the configuration options.</p>
+<p>
+
+<h2>Methods</h2>
+<p>
+The Zoonomia alignment was composed of two sets of mammalian genomes: newly
+assembled DISCOVAR assemblies and GenBank assemblies. The DISCOVAR genomes
+were masked with RepeatMasker (commit 2d947604), using Repbase version
+20170127 as the repeat library and CrossMatch as the alignment engine. The
+pipeline used is available at
+<a href="https://github.com/joelarmstrong/repeatMaskerPipeline">repeatMaskerPipeline</a>
+(commit a6ad966). The
+guide-tree topology was taken from the TimeTree database (using release
+current in October 2018), and the branch lengths were estimated using the
+least-squares-fit mode of <a href="https://evolution.genetics.washington.edu/phylip/getme-new1.html">PHYLIP</a>, version
+3.695. The distance matrix used was largely based on distances from the 4d
+site trees from the UCSC browser. To add those species not present in the
+UCSC tree, approximate distances estimated by <a href="https://github.com/marbl/Mash">Mash</a> (commit 541971b)
+to the closest UCSC species
+were added to the distance between the two closest UCSC species. We used the
+<a href="https://github.com/ComparativeGenomicsToolkit/hal">HAL package</a>  (commit 68db41d)
+produce the HAL file.
+</p>
+<p>
+For more details on the alignment used, please follow the <a href="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cons241way"><em>Cactus Alignment & Conservation of Zoonomia Placental Mammals (Hg38)</em></a> track page.
+</p>
+
+<h3> Phylogenetic Tree Model</h3>
+<p>
+The <em>phyloP</em> are phylogenetic methods that rely
+on a tree model containing the tree topology, branch lengths representing
+evolutionary distance at neutrally evolving sites, the background distribution
+of nucleotides, and a substitution rate matrix.
+The
+<a href="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/phyloP241way/"
+target=_blank>all-species tree model</a> for this track was
+generated using the <em>phyloFit</em> program from the PHAST package
+(REV model, EM algorithm, medium precision) using multiple alignments of
+4-fold degenerate sites extracted from the 241-way alignment
+(msa_view).  The 4d sites were derived from the RefSeq (Reviewed+Coding) gene
+set, filtered to select single-coverage long transcripts.
+</p>
+<p>
+This same tree model was used in the phyloP calculations; however, the
+background frequencies were modified to maintain reversibility.
+The resulting tree model:
+<a href="http://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP241way/hg38.phyloP241way.mod"
+target=_blank>all species</a>.
+</p>
+<h3> PhyloP Conservation </h3>
+<p>
+The phyloP program supports several different methods for computing
+p-values of conservation or acceleration, for individual nucleotides or
+larger elements (<a href="http://compgen.cshl.edu/phast/" target="_blank">
+http://compgen.cshl.edu/phast/</a>).  Here it was used
+to produce separate scores at each base (--wig-scores option), considering
+all branches of the phylogeny rather than a particular subtree or lineage
+(i.e., the --subtree option was not used).  The scores were computed by
+performing a likelihood ratio test at each alignment column (--method LRT),
+and scores for both conservation and acceleration were produced (--mode
+CONACC).
+</p>
+
+<h2>References</h2>
+
+<h3>Zoonomia:</h3>
+<p>
+Zoonomia Consortium..
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/33177664" target="_blank">
+A comparative genomics multitool for scientific discovery and conservation</a>.
+<em>Nature</em>. 2020 Nov;587(7833):240-245.
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33177664" target="_blank">33177664</a>;
+PMC: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7759459/" target="_blank">PMC7759459</a>;
+DOI: <a href="https://doi.org/10.1038/s41586-020-2876-6" target="_blank">10.1038/s41586-020-2876-6</a>
+</p>
+
+<h3>Cactus:</h3>
+<p>
+Armstrong J, Hickey G, Diekhans M, Fiddes IT, Novak AM, Deran A, Fang Q, Xie D, Feng S, Stiller J
+<em>et al</em>.
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/33177663" target="_blank">
+Progressive Cactus is a multiple-genome aligner for the thousand-genome era</a>.
+<em>Nature</em>. 2020 Nov;587(7833):246-251.
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33177663" target="_blank">33177663</a>;
+PMC: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7673649/" target="_blank">PMC7673649</a>;
+DOI: <a href="https://doi.org/10.1038/s41586-020-2871-y" target="_blank">10.1038/s41586-020-2871-y</a>
+</p>
+
+<p>
+Paten B, Earl D, Nguyen N, Diekhans M, Zerbino D, Haussler D.
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21665927" target="_blank">
+Cactus: Algorithms for genome multiple sequence alignment</a>.
+<em>Genome Res</em>. 2011 Sep;21(9):1512-28.
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21665927" target="_blank">21665927</a>;
+PMC: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166836/" target="_blank">PMC3166836</a>;
+DOI: <a href="https://doi.org/10.1101/gr.123356.111" target="_blank">10.1101/gr.123356.111</a>
+</p>
+
+<p>
+Harris RS.
+<a href="http://www.bx.psu.edu/~rsharris/rsharris_phd_thesis_2007.pdf"
+target="_blank">Improved pairwise alignment of genomic DNA</a>.
+<em>Ph.D. Thesis</em>. Pennsylvania State University, USA. 2007.
+</p>
+
+<h3>PhyloP:</h3>
+<p>
+Cooper GM, Stone EA, Asimenos G, NISC Comparative Sequencing Program., Green ED, Batzoglou S, Sidow
+A.
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/15965027" target="_blank">
+Distribution and intensity of constraint in mammalian genomic sequence</a>.
+<em>Genome Res</em>. 2005 Jul;15(7):901-13.
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/15965027" target="_blank">15965027</a>;
+PMC: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1172034/" target="_blank">PMC1172034</a>;
+DOI: <a href="https://doi.org/10.1101/gr.3577405" target="_blank">10.1101/gr.3577405</a>
+</p>
+
+<p>
+Pollard KS, Hubisz MJ, Rosenbloom KR, Siepel A.
+<a href="https://genome.cshlp.org/content/20/1/110.long" target="_blank">
+Detection of nonneutral substitution rates on mammalian phylogenies</a>.
+<em>Genome Res</em>. 2010 Jan;20(1):110-21.
+PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19858363" target="_blank">19858363</a>;
+PMC: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798823/" target="_blank">PMC2798823</a>
+</p>
+
+<p>
+Siepel A, Haussler D.
+<a href="https://link.springer.com/content/pdf/10.1007%2F0-387-27733-1_12.pdf"
+target="_blank">Phylogenetic Hidden Markov Models</a>.
+In: Nielsen R, editor. Statistical Methods in Molecular Evolution.
+New York: Springer; 2005. pp. 325-351.
+DOI: <a href="https://doi.org/10.1007/0-387-27733-1_12" target="_blank">10.1007/0-387-27733-1_12</a>
+</p>
+
+<p>
+Siepel A, Pollard KS, and Haussler D. New methods for detecting
+lineage-specific selection. In Proceedings of the 10th International
+Conference on Research in Computational Molecular Biology (RECOMB 2006), pp. 190-205.
+DOI: <a href="https://doi.org/10.1007/11732990_17" target="_blank">10.1007/11732990_17</a>
+</p>
+
+<p>
+</p>
+
+
+
